@@ -1,144 +1,189 @@
 @font-face {
-    font-family: Bliss Pro;
-    src: url('/assets/ttf/ofont.ru_Bliss\ Pro.ttf') format("opentype");
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
-.container-setting{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 50px;
+.container-setting {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 50px;
 }
-.title-setting{
-    font-family: Bliss Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-    margin: 0px;
-    margin-bottom: 10px;
+.content-setting {
+  max-width: 520px;
 }
-.border-title{
-    width: 19px;
-    height: 5px;
-    background: #FF3B33;
-    margin-bottom: 20px;
+.title-setting {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0px;
+  margin-bottom: 10px;
 }
-.input-setting{
-    padding-bottom: 25px;
-    padding-top: 25px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #ECECEC;
-    max-width: 470px;
+.border-title {
+  width: 19px;
+  height: 5px;
+  background: #ff3b33;
+  margin-bottom: 20px;
 }
-.input-setting-number-from{
-    position: relative;
+.input-setting {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ececec;
+  width: 100%;
 }
-.input-setting-number{
-    position: relative;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #ECECEC;
-    width: 470px;
-
+.input-setting-number-from {
+  position: relative;
 }
-.input-setting-number-btn{
-    position: absolute;
-    top: 25px;
-    left: 235px;
-    border: 1px solid #84BA6C;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background: none;
-    padding: 7px 30px 7px 30px;
+.input-setting-number {
+  position: relative;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ececec;
+  width: 100%;
 }
-.input-setting-number-btn:hover{
-    border: 1px solid #84BA6C;
-    background: #84BB6A;
-    font-family: Bliss Pro;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    font-style: normal;
-    color: #FFFFFF;
+.input-setting-number-btn {
+  position: absolute;
+  top: 25px;
+  left: 235px;
+  border: 1px solid #84ba6c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
+  padding: 7px 30px 7px 30px;
 }
-.input-setting-pasvord{
-    position: relative;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #ECECEC;
-    width: 470px;
+.input-setting-number-btn:hover {
+  border: 1px solid #84ba6c;
+  background: #84bb6a;
+  font-family: Bliss Pro;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+  color: #ffffff;
 }
-.input-setting-check{
-    position: relative;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    background: none;
-    border: none;
+.input-setting-pasvord {
+  position: relative;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ececec;
+  width: 100%;
 }
-.input-setting-check-from{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    align-items: center;
+.input-setting-check {
+  position: relative;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: none;
+  border: none;
 }
-.from-check-content{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 100px;
+.input-setting-check-from {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
 }
-.form-check-label{
+.from-check-content {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 80px;
+}
+.form-check-label {
+  position: relative;
+  margin-left: 10px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 19px;
+  color: #000000;
+}
+.btn-seting-checkbox {
+  background: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #c4c4c4;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+@media (max-width: 1020px) {
+  .form-check-label {
     position: relative;
     margin-left: 10px;
     font-family: Bliss Pro;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 19px;
     color: #000000;
-
+  }
 }
-.btn-seting-checkbox{
+@media (max-width: 835px) {
+  .input-setting-check-from {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .from-check-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 150px;
+  }
+}
+@media (max-width: 585px) {
+  .from-check-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+  }
+  .input-setting {
+    padding-bottom: 25px;
+    padding-top: 25px;
     background: none;
-    width: 15px;
-    height: 15px;
-    border: 1px solid #C4C4C4;
-    border-radius: 100%;
-    margin-left: 30px;
-}
-@media(max-width:1020px){
-    .form-check-label{
-        position: relative;
-        margin-left: 10px;
-        font-family: Bliss Pro;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 19px;
-        color: #000000;
-    
-    }
-}
-@media(max-width:835px){
-    .input-setting-check-from{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        justify-content: flex-end;
-        align-items: flex-start;
-    }
-    .from-check-content{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 150px;
-    }
-}
+    border: none;
+    border-bottom: 1px solid #ececec;
+    max-width: 470px;
+  }
 
-
+  .input-setting-number {
+    position: relative;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ececec;
+    max-width: 470px;
+  }
+  .input-setting-number-btn {
+    position: absolute;
+    top: 25px;
+    left: 135px;
+    border: 1px solid #84ba6c;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: none;
+    padding: 7px 30px 7px 30px;
+  }
+  .input-setting-pasvord {
+    position: relative;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ececec;
+    max-width: 470px;
+  }
+}
