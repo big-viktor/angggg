@@ -1,40 +1,49 @@
 @font-face {
-    font-family: Bliss Pro;
-    src: url('/assets/ttf/ofont.ru_Bliss\ Pro.ttf') format("opentype");
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
-.content-footer{
+.content-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #e5e5e5;
+  padding: 40px 20px 60px 40px;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.footer-text {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.content-img-footer {
+  display: flex;
+  flex-direction: row;
+}
+.img-footer {
+  max-width: 30px;
+  height: 20px;
+}
+.info-footer-content {
+  max-width: 1160px;
+  margin: 0 auto;
+  border-top: 1px solid #bebebe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 40px 20px 20px;
+}
+@media (max-width: 845px) {
+  .content-footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 40px;
-    background: #E5E5E5;
     padding-left: 40px;
-    padding-right: 20px;
-}
-.footer-text{
-    font-family: Bliss Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-}
-.content-img-footer{
-    display: flex;
-    flex-direction: row;
-}
-.img-footer{
-    max-width: 30px;
-    height: 20px;
-}
-@media(max-width:845px){
-    .content-footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding-top: 40px;
-        padding-left: 40px;
-    }
+  }
 }
