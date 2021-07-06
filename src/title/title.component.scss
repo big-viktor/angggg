@@ -1,0 +1,55 @@
+.menu-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-menu{
+    font-family: Bliss Pro;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    font-style: normal;
+    color: #000000;
+}
+.conteiner-price{
+    display: flex;
+    flex-direction: row;
+}
+.info-price{
+    font-family: Bliss Pro;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    font-style: normal;
+    color: #000000;
+    margin: 0px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.info-price-btn{
+    border: none;
+    background: #84BB6A;
+    border-radius: 5px;
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 10px 30px 10px 30px;
+}
+@media(max-width:855px){
+    .menu-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .conteiner-price{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+    }
+}

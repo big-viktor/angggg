@@ -10,6 +10,7 @@ import { SelectComponent } from '../select/select.component';
 import { FooterComponent } from '../footer/footer.component';
 import { PageContactComponent } from '../page-contact/page-contact.component';
 import { ContactComponent } from '../contact/contact.component';
+import { TitleComponent } from '../title/title.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactComponent } from '../contact/contact.component';
     SelectComponent,
     FooterComponent,
     PageContactComponent,
-    ContactComponent
+    ContactComponent,
+    TitleComponent,
   ],
   imports: [
     BrowserModule,

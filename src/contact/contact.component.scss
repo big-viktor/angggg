@@ -1,5 +1,12 @@
+@font-face {
+    font-family: Bliss Pro;
+    src: url('/assets/ttf/ofont.ru_Bliss\ Pro.ttf') format("opentype");
+}
 .content-contact{
     background: #FFFFFF;
+    padding-left: 61px;
+    padding-top: 20px;
+    margin-bottom: 197px;
 }
 .title-contact{
     font-family: Bliss Pro;
@@ -9,9 +16,13 @@
     line-height: 29px;
     color: #000000;
 }
+.content-input-two{
+    padding-bottom: 25px;
+}
 .content-input{
     border-bottom: 1px solid #ECECEC;
     padding-top: 25px;
+    margin-right: 60px;
     padding-bottom: 25px;
     margin-bottom: 25px;
 }
@@ -30,5 +41,53 @@
     color: #979393;
     background: none;
     border: none;
+    padding-right: 160px;
 
+}
+.title-communication-contact{
+    font-family: Bliss Pro;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    color: #000000;
+    padding-top: 64px;
+}
+.communication-contact{
+    display: flex;
+    flex-direction: column;
+    padding-right: 55px;
+    padding-bottom: 70px;
+}
+.communication-contact-input{
+    max-width: 828px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.communication-contact-input-two{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    max-width: 828px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.communication-contact-btn{
+    max-width: 198px;
+    margin-top: 20px;
+    padding: 15px 0;
+    background: #FF3B33;
+    border-radius: 5px;
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
 }

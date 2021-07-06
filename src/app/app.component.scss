@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Bliss Pro;
+    src: url('/assets/ttf/ofont.ru_Bliss\ Pro.ttf') format("opentype");
+}
 .container{
     max-width: 1920px;
     margin: 0 auto;
@@ -10,7 +14,6 @@
     position:relative;
     margin: 0 auto;
 }
-
 .container::after{
     content: "";
     background-image: url('/assets/image 41.png');
@@ -25,12 +28,14 @@
 }
 .menu-seting-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .content-seting{
     width: 100%;
 }
 .container-menu{
+    display: flex;
+    flex-direction: row;
 }
 .container-select{
     max-width: 1203px;
