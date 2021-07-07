@@ -1,43 +1,51 @@
 @font-face {
-    font-family: Bliss Pro;
-    src: url('/assets/ttf/ofont.ru_Bliss\ Pro.ttf') format("opentype");
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
 
-.menu-content{
+.menu-content {
+  display: flex;
+  flex-direction: column;
+}
+.btn-menu {
+  border: none;
+  background: none;
+  padding: 15px 124px 15px 35px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-align: left;
+}
+
+.btn-menu:hover {
+  border: none;
+  background: #ff3b33;
+  box-shadow: 0px 4px 4px rgba(176, 184, 210, 0.5);
+  padding: 15px 124px 15px 35px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-align: left;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  border-radius: 10px 0px 0px 10px;
+  height: 47rem;
+}
+@media (max-width: 990px) {
+  .btn-container {
     display: flex;
     flex-direction: column;
-
-}
-.btn-menu{
-    border: none;
-    background: none;
-    padding: 15px 124px 15px 35px;
-    font-family: Bliss Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-    text-align:left;
-}
-
-.btn-menu:hover{
-    border: none;
-    background: #FF3B33;
-    box-shadow: 0px 4px 4px rgba(176, 184, 210, 0.5);
-    padding: 15px 124px 15px 35px;
-    font-family: Bliss Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-    text-align:left;
-}
-.btn-container{
-    display: flex;
-    flex-direction: column;
-    background: #FAFAFA;
+    background: #fafafa;
     border-radius: 10px 0px 0px 10px;
-    height: 47rem;
+    height: 32rem;
+  }
 }

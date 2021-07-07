@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.container-page-contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.container-page-contact::after {
+  content: "";
+  background-image: url("/assets/image 41.png");
+  background-size: 50% 50% 50% 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.02;
+  position: absolute;
+  z-index: -1;
+}
+.container-contact {
+  width: 100%;
+}
+.content-page-contact {
+  margin: 0 auto;
+}
+.menu-content-page-contact {
+  display: flex;
+  flex-direction: row;
+}
+.container-footer {
+  width: 100%;
+  margin-top: 40px;
+  background: #e5e5e5;
+}
+@media (max-width: 470px) {
+  .menu-seting-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 855px) {
+  .menu-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .conteiner-price {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 705px) {
+  .menu-content-page-contact {
+    display: flex;
+    flex-direction: column;
+  }
+}

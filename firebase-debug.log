@@ -1,0 +1,21 @@
+[debug] [2021-07-06T19:35:26.073Z] ----------------------------------------------------------------------
+[debug] [2021-07-06T19:35:26.078Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\svitl\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-06T19:35:26.079Z] CLI Version:   9.14.0
+[debug] [2021-07-06T19:35:26.080Z] Platform:      win32
+[debug] [2021-07-06T19:35:26.080Z] Node Version:  v16.4.0
+[debug] [2021-07-06T19:35:26.081Z] Time:          Tue Jul 06 2021 22:35:26 GMT+0300 (Восточная Европа, летнее время)
+[debug] [2021-07-06T19:35:26.081Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-06T19:35:26.100Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-06T19:35:26.101Z] > authorizing via signed-in user (svitlik.viktor78@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\svitl\OneDrive\Рабочий стол\arr\my-app
+

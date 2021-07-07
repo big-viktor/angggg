@@ -11,6 +11,8 @@ import { FooterComponent } from '../footer/footer.component';
 import { PageContactComponent } from '../page-contact/page-contact.component';
 import { ContactComponent } from '../contact/contact.component';
 import { TitleComponent } from '../title/title.component';
+import { CardLotComponent } from '../card-lot/card-lot.component';
+import { CardLotPageComponent } from '../card-lot-page/card-lot-page.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { TitleComponent } from '../title/title.component';
     PageContactComponent,
     ContactComponent,
     TitleComponent,
+    CardLotComponent,
+    CardLotPageComponent,
   ],
   imports: [
     BrowserModule,

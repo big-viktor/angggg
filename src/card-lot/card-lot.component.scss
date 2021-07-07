@@ -1,0 +1,173 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+p {
+  margin: 0px;
+}
+.content-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 926px;
+  background: #ffffff;
+  border-radius: 0px 10px 10px 0px;
+  padding-top: 40px;
+}
+.card-name-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-info-avto-content {
+  display: flex;
+  flex-direction: column;
+}
+.content-card-info {
+  display: flex;
+  flex-direction: row;
+}
+.card-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.card-display-component-favorite {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.card-lot-stavka-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+.lot-card-price-content {
+  margin-left: 130px;
+}
+.card-lot-info-avto-content {
+  margin-left: 120px;
+}
+.img-favorite {
+  width: 12px;
+  height: 12px;
+}
+.img-card {
+  width: 165px;
+  height: 165px;
+  margin-left: 20px;
+}
+.text-card-info {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #6b6b6b;
+  margin-right: 25px;
+}
+.text-card-info-two {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 183.9%;
+  color: #000000;
+}
+.text-card-info-title {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #919191;
+}
+.text-card-info-title-two {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 14px;
+}
+.card-text-lot-active {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 183.9%;
+  display: flex;
+  align-items: center;
+  color: #84ba6c;
+}
+.btn-card-lot {
+  background: #ffffff;
+  border: 1px solid #84ba6c;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #84ba6c;
+  margin-top: 40px;
+}
+.activ-text-lot-card {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 183.9%;
+  color: #84ba6c;
+  margin-left: 5px;
+}
+.container-status-lot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+.card-lot-status {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #84ba6c;
+}
+@media (max-width: 1080px) {
+  .content-card-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-lot-info-avto-content {
+    margin-left: 0px;
+  }
+  .lot-card-price-content {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 935px) {
+  .content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 926px;
+    background: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 40px;
+  }
+  .card-lot-stavka-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .lot-card-price-content {
+    margin-left: 0px;
+  }
+}
