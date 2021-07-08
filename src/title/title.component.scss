@@ -1,8 +1,20 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
 .menu-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.title-page-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #979393;
 }
 .title-menu {
   font-family: Bliss Pro;

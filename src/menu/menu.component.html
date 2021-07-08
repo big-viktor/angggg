@@ -1,14 +1,19 @@
 <div class="menu-content">
     <div class="btn-container">
-        <button class="btn-menu">Настройки</button>
-        <button class="btn-menu">Связь с администрацией</button>
-        <button class="btn-menu">Мои лоты</button>
-        <button class="btn-menu">Лоты на модерации</button>
-        <button class="btn-menu">Избранные лоты</button>
+        <a class="btn-menu" routerLink="/Info">Настройки</a>
+        <a  class="btn-menu" routerLink="">Связь с администрацией</a>
+        <a  class="btn-menu" routerLink="/Lot">Мои лоты</a>
+        <a  class="btn-menu" routerLink="/Moderation">Лоты на модерации</a>
+        <a  class="btn-menu" routerLink="/SelectedLot">Избранные лоты</a>
         <button class="btn-menu">Мои завершенные лоты</button>
         <button class="btn-menu">Мои объявления</button>
         <button class="btn-menu">Архив лотов</button>
         <button class="btn-menu">Мой тариф</button>
         <button class="btn-menu">История оплат</button>
     </div>
+    <div>
+        <nav>
+        </nav>
+        <router-outlet></router-outlet>
+      </div>
 </div>

@@ -100,7 +100,18 @@ p {
   line-height: 183.9%;
   display: flex;
   align-items: center;
+}
+.navyColor {
+  color: #ff3b33;
+}
+.verdanaColor {
   color: #84ba6c;
+}
+.displayNone {
+  display: none;
+}
+.displayTop {
+  margin-top: 40px;
 }
 .btn-card-lot {
   background: #ffffff;
@@ -137,7 +148,7 @@ p {
   width: 8px;
   height: 8px;
   border-radius: 100%;
-  background: #84ba6c;
+  background: #ffa800;
 }
 @media (max-width: 1080px) {
   .content-card-info {
@@ -170,7 +181,4 @@ p {
   .lot-card-price-content {
     margin-left: 0px;
   }
-}
-.verdanaFont {
-  display: none;
 }
