@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.container-creating-lot {
+  width: 835px;
+  background: #ffffff;
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.creating-lot-title {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.title-lot-info {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.border-title {
+  width: 19px;
+  height: 5px;
+  background: #ff3b33;
+  margin-bottom: 35px;
+}
+.btn-creating-lot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  background: #c4c4c4;
+  border-radius: 10px;
+  padding: 25px 35px;
+  margin-right: 10px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 19px;
+  cursor: pointer;
+}
+.btn-creating-lot:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  background: #ff3b33;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 25px 35px;
+  margin-right: 10px;
+}
+.img-btn {
+  margin-right: 10px;
+}
+.content-btn-creating-lot {
+  display: flex;
+  flex-direction: row;
+}
+.container-setting-creating-lot {
+  max-width: 380px;
+}
+.setting-content-crating-lot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.setting-text-creating-lot {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6b6b;
+}
+.setting-input-creating-lot {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.position {
+  position: relative;
+}
+.btn-i-input {
+  border: none;
+  background: none;
+  position: absolute;
+  right: 9px;
+  top: 10px;
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.setting-input-creating-lot::placeholder {
+  padding-left: 135px;
+  color: #000000;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+.setting-input-creating-lot:hover {
+  border: 1px solid #ff3b33;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.setting-input-creating-lot:active {
+  border: 1px solid #ff3b33;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
