@@ -29,6 +29,10 @@ import { MyTariffPageComponent } from '../my-tariff-page/my-tariff-page.componen
 import { MyTariffComponent } from '../my-tariff/my-tariff.component';
 import { PaymentHistoryComponent } from '../payment-history/payment-history.component';
 import { PaymentHistoryPageComponent } from '../payment-history-page/payment-history-page.component';
+import { SmsPageComponent } from '../sms-page/sms-page.component';
+import { SmsComponent } from '../sms/sms.component';
+import { CreatingLotComponent } from '../creating-lot/creating-lot.component';
+import { CreatingLotPageComponent } from '../creating-lot-page/creating-lot-page.component';
 
 const appRoutes: Routes = [
   {path: '', component: PageContactComponent},
@@ -41,6 +45,10 @@ const appRoutes: Routes = [
   {path: 'LotArchive', component: LotArchivePageComponent },
   {path: 'MyTariff', component: MyTariffPageComponent },
   {path: 'PaymentHistory', component:PaymentHistoryPageComponent },
+  {path: 'SmsPage', component:SmsPageComponent },
+  {path: 'CreatingLot', component:CreatingLotPageComponent },
+
+
 
 
 
@@ -71,6 +79,10 @@ const appRoutes: Routes = [
     MyTariffComponent,
     PaymentHistoryComponent,
     PaymentHistoryPageComponent,
+    SmsPageComponent,
+    SmsComponent,
+    CreatingLotComponent,
+    CreatingLotPageComponent,
   ],
   imports: [
     BrowserModule,
