@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-selected-lot',
-  templateUrl: './selected-lot.component.html',
-  styleUrls: ['./selected-lot.component.scss']
+  selector: 'app-completed-lots',
+  templateUrl: './completed-lots.component.html',
+  styleUrls: ['./completed-lots.component.scss']
 })
-export class SelectedLotComponent implements OnInit {
+export class CompletedLotsComponent implements OnInit {
+  
+  constructor() { }
+
 
   selected = "Откритий";
   selectedTwo = "Закритий";
@@ -45,8 +48,6 @@ activTop={
 
 }
   
-  constructor() { }
-
   ngOnInit(): void {
     if(this.isActive === true){
       this.nameActiv = this.selected;
@@ -58,5 +59,4 @@ activTop={
       this.run = "--";
     }
   }
-
 }

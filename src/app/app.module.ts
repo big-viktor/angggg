@@ -21,6 +21,14 @@ import { ModerationComponent } from '../moderation/moderation.component';
 import { ModerationPageComponent } from '../moderation-page/moderation-page.component';
 import { SelectedLotComponent } from '../selected-lot/selected-lot.component';
 import { SelectedLotPageComponent } from '../selected-lot-page/selected-lot-page.component';
+import { CompletedLotsComponent } from '../completed-lots/completed-lots.component';
+import { CompletedLotsPageComponent } from '../completed-lots-page/completed-lots-page.component';
+import { MyAdsPageComponent } from '../my-ads-page/my-ads-page.component';
+import { LotArchivePageComponent } from '../lot-archive-page/lot-archive-page.component';
+import { MyTariffPageComponent } from '../my-tariff-page/my-tariff-page.component';
+import { MyTariffComponent } from '../my-tariff/my-tariff.component';
+import { PaymentHistoryComponent } from '../payment-history/payment-history.component';
+import { PaymentHistoryPageComponent } from '../payment-history-page/payment-history-page.component';
 
 const appRoutes: Routes = [
   {path: '', component: PageContactComponent},
@@ -28,6 +36,12 @@ const appRoutes: Routes = [
   {path: 'Info', component: InfoSettingPageComponent},
   {path: 'Moderation', component: ModerationPageComponent},
   {path: 'SelectedLot', component: SelectedLotPageComponent },
+  {path: 'CompletedLot', component: CompletedLotsPageComponent },
+  {path: 'MyAdsLot', component: MyAdsPageComponent },
+  {path: 'LotArchive', component: LotArchivePageComponent },
+  {path: 'MyTariff', component: MyTariffPageComponent },
+  {path: 'PaymentHistory', component:PaymentHistoryPageComponent },
+
 
 
 ]
@@ -49,6 +63,14 @@ const appRoutes: Routes = [
     ModerationPageComponent,
     SelectedLotComponent,
     SelectedLotPageComponent,
+    CompletedLotsComponent,
+    CompletedLotsPageComponent,
+    MyAdsPageComponent,
+    LotArchivePageComponent,
+    MyTariffPageComponent,
+    MyTariffComponent,
+    PaymentHistoryComponent,
+    PaymentHistoryPageComponent,
   ],
   imports: [
     BrowserModule,

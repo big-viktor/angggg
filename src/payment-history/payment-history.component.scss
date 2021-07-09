@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.container-histori {
+  background: #ffffff;
+  border-radius: 0px 10px 10px 0px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.content-histori-name-payment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 831px;
+  background: #84bb6a;
+}
+.content-histori-price {
+  max-width: 831px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.data-histori-list {
+  border: 1px solid rgba(176, 184, 210, 0.5);
+  border-top: none;
+  border-right: none;
+  padding: 20px 60px 20px 60px;
+  margin: 0px;
+}
+.play-histori-list {
+  border: 1px solid rgba(176, 184, 210, 0.5);
+  border-top: none;
+  border-right: none;
+  padding: 20px 70px 20px 70px;
+  margin: 0px;
+}
+.price-histori-list {
+  border: 1px solid rgba(176, 184, 210, 0.5);
+  border-top: none;
+  border-right: none;
+  padding: 20px 80px 20px 80px;
+  margin: 0px;
+}
+.none-histori-list {
+  border: 1px solid rgba(176, 184, 210, 0.5);
+  border-top: none;
+  padding: 20px 70px 20px 80px;
+  margin: 0px;
+}
+@media (max-width: 1018px) {
+  .content-histori-price {
+    max-width: 831px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .data-histori-list {
+    border: 1px solid rgba(176, 184, 210, 0.5);
+    border-top: none;
+    padding: 20px 0px 20px 5px;
+    margin: 0px;
+  }
+  .play-histori-list {
+    border: 1px solid rgba(176, 184, 210, 0.5);
+    border-top: none;
+    padding: 20px 0px 20px 5px;
+    margin: 0px;
+  }
+  .price-histori-list {
+    border: 1px solid rgba(176, 184, 210, 0.5);
+    border-top: none;
+    padding: 20px 0px 20px 5px;
+    margin: 0px;
+  }
+  .none-histori-list {
+    border: 1px solid rgba(176, 184, 210, 0.5);
+    border-top: none;
+    border-bottom: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+  }
+}
+@media (max-width: 710px) {
+  .container-histori {
+    background: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+}

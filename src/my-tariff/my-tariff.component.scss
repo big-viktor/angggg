@@ -1,0 +1,216 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+p {
+  margin: 0px;
+}
+.container-my-tariff {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 0px 10px 10px 0px;
+  max-width: 960px;
+  padding: 0px 35px 50px 40px;
+}
+.content-info-my-tariff {
+  display: flex;
+  flex-direction: column;
+  max-width: 493px;
+}
+.content-title-tariff {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.info-my-tariff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.title-my-tariff {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.title-my-tariff-border {
+  width: 19px;
+  height: 5px;
+  background: #ff3b33;
+}
+.name-tariff {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #979393;
+}
+.name-info-tariff {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.color-tariff {
+  color: #84bb6a;
+}
+.content-title-name-tarif-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 20px;
+}
+.title-name-tarif-list {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  max-width: 200px;
+  margin-right: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.container-price-list-tariff {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.container-text-info-list-tariff {
+  max-width: 580px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.text-info-list-tariff {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.btn-payment-tariff {
+  background: #84bb6a;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 16px 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn-score-tariff {
+  background: #ff3b33;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 16px 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.padding-tariff {
+  margin-right: 70px;
+}
+.conteiner-services-btn-tariff {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ececec;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+}
+.services-text-tariff {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #190706;
+}
+.services-btn-tariff {
+  background: none;
+  border: 1px solid #84ba6c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #84bb6a;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+@media (max-width: 945px) {
+  .container-price-list-tariff {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 445px) {
+  .conteiner-services-btn-tariff {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ececec;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+  }
+  .services-btn-tariff {
+    margin-top: 20px;
+  }
+  .container-text-info-list-tariff {
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .btn-payment-tariff {
+    margin-top: 20px;
+  }
+  .btn-score-tariff {
+    margin-top: 20px;
+  }
+}
+
+.invisible {
+  display: none;
+}
+.invisibles {
+  display: none;
+}
+.none-tariff {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ff3b33;
+  margin-top: 20px;
+}

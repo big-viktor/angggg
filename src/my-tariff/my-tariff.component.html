@@ -1,0 +1,125 @@
+<div class="container-my-tariff">
+    <div class="content-title-tariff">
+        <h1 class="title-my-tariff">Мои тариф</h1>
+        <div class="title-my-tariff-border"></div>
+        <div [ngClass]="{invisibles: noneDisplay}">
+            <p class="none-tariff">Тариф не выбран</p>
+        </div>
+    </div>
+    <div class="content-info-my-tariff"  [ngClass]="{invisible: visibility}">
+        <div class="info-my-tariff">
+            <p class="name-tariff">Текущий тариф:</p>
+            <p class="name-info-tariff color-tariff">Базовый 2018-2020 года (141 600 руб.)</p>
+        </div>
+        <div class="info-my-tariff">
+            <p class="name-tariff">Активен до:</p>
+            <p class="name-info-tariff">Не выбран</p>
+        </div> 
+        <div class="info-my-tariff">
+            <p class="name-tariff">Стоимость подключения:</p>
+            <p class="name-info-tariff">141 600 ₽</p>
+        </div> 
+        <div class="info-my-tariff">
+            <p class="name-tariff">Сумма депозита:</p>
+            <p class="name-info-tariff">70 800 ₽</p>
+        </div>
+    </div>
+    <div>
+        <div class="content-title-tariff">
+            <h1 class="title-my-tariff">Список тарифов</h1>
+            <div class="title-my-tariff-border"></div>
+        </div>
+        <div class="content-title-name-tarif-list">
+            <p class="title-name-tarif-list">Название тарифа</p>
+            <p class="title-name-tarif-list">Описание</p>
+            <p class="title-name-tarif-list">Стоимость</p>
+        </div>
+        <div class="container-price-list-tariff">
+            <div><p class="title-name-tarif-list" (click)="toggle()">Базовый 2018-2020 года (141 600 руб.)</p></div>
+            <div class="container-text-info-list">
+                <div class="container-text-info-list-tariff">
+                    <p class="text-info-list-tariff">Тариф даёт возможность подключаться ко всем разделам аукциона и участвовать по всем маркам и моделям без ограничения по количеству и времени участия.</p>
+                    <p class="text-info-list-tariff">141 600 ₽ в.ч. НДС Депозит 70 800 ₽ Возвращается при рассторжении договора</p>
+                </div>
+                    <div>
+                        <p class="title-name-tarif-list container-text-info-list-tariff">Оплата услуг по факту приобретения</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <p class="text-info-list-tariff">Лот до 150 000 ₽</p>
+                        <p class="text-info-list-tariff padding-tariff">4 800 ₽ в.ч. НДС</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <p class="text-info-list-tariff">Лот от 150 000 ₽ до 800 000 ₽</p>
+                        <p class="text-info-list-tariff padding-tariff">9 600 ₽ в.ч. НДС</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <p class="text-info-list-tariff">Лот от 800 000 ₽ до 3 000 000 ₽</p>
+                        <p class="text-info-list-tariff padding-tariff">14 400 ₽ в.ч. НДС</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <p class="text-info-list-tariff">Лот от 800 000 ₽ до 3 000 000 ₽</p>
+                        <p class="text-info-list-tariff padding-tariff">28 800 ₽ в.ч. НДС</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <button class="btn-payment-tariff">Оплатить тариф</button>
+                        <button class="btn-score-tariff">Выставить счет</button>
+                    </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-price-list-tariff">
+            <div><p class="title-name-tarif-list"  (click)="toggle()">Базовый 2018-2020 года (141 600 руб.)</p></div>
+            <div class="container-text-info-list">
+                <div class="container-text-info-list-tariff">
+                    <p class="text-info-list-tariff">Тариф даёт возможность подключаться ко всем разделам аукциона и участвовать по всем маркам и моделям без ограничения по количеству и времени участия.</p>
+                    <p class="text-info-list-tariff">141 600 ₽ в.ч. НДС Депозит 70 800 ₽ Возвращается при рассторжении договора</p>
+                </div>
+                    <div>
+                        <p class="title-name-tarif-list container-text-info-list-tariff">Оплата услуг по факту приобретения</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <p class="text-info-list-tariff">Лот до 150 000 ₽</p>
+                        <p class="text-info-list-tariff padding-tariff">4 800 ₽ в.ч. НДС</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <p class="text-info-list-tariff">Лот от 150 000 ₽ до 800 000 ₽</p>
+                        <p class="text-info-list-tariff padding-tariff">9 600 ₽ в.ч. НДС</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <p class="text-info-list-tariff">Лот от 800 000 ₽ до 3 000 000 ₽</p>
+                        <p class="text-info-list-tariff padding-tariff">14 400 ₽ в.ч. НДС</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <p class="text-info-list-tariff">Лот от 800 000 ₽ до 3 000 000 ₽</p>
+                        <p class="text-info-list-tariff padding-tariff">28 800 ₽ в.ч. НДС</p>
+                    </div>
+                    <div class="container-text-info-list-tariff">
+                        <button class="btn-payment-tariff">Оплатить тариф</button>
+                        <button class="btn-score-tariff">Выставить счет</button>
+                    </div>
+            </div>
+        </div>
+        <div>
+            <div class="content-title-tariff">
+                <h1 class="title-my-tariff">Платные услуги</h1>
+                <div class="title-my-tariff-border"></div>
+            </div>
+            <div class="conteiner-services-btn-tariff">
+                <p class="services-text-tariff">Узнать ставки других аукционов (услуга подключается на месяц) – 5 000 ₽</p>
+                <button class="services-btn-tariff">Оплатить</button>
+            </div>
+            <div class="conteiner-services-btn-tariff">
+                <p class="services-text-tariff">SMS информирование по выигранным лотам, 5 рублей СМС, пакет 200 СМС – 1 000 ₽</p>
+                <button class="services-btn-tariff">Оплатить</button>
+            </div>
+            <div class="conteiner-services-btn-tariff">
+                <p class="services-text-tariff">SMS информирование по марке/модели/региону, при появлении таких лотов - пакет 200 СМС – 1 000 ₽</p>
+                <button class="services-btn-tariff">Оплатить</button>
+            </div>
+            <div class="conteiner-services-btn-tariff">
+                <p class="services-text-tariff">SMS информирование при изменении цен по лотам на торгах, минимальный пакет (входит 600 СМС) – 3 000 ₽</p>
+                <button class="services-btn-tariff">Оплатить</button>
+            </div>
+        </div>
+    </div>
+</div>
