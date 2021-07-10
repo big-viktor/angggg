@@ -40,8 +40,13 @@ import { DamageComponent } from '../damage/damage.component';
 import { DamagePageComponent } from '../damage-page/damage-page.component';
 import { PhotographyComponent } from '../photography/photography.component';
 import { PhotographyPageComponent } from '../photography-page/photography-page.component';
-import { PublicationComponent } from './publication/publication.component';
-import { PublicationPageComponent } from './publication-page/publication-page.component';
+import { PublicationComponent } from '../publication/publication.component';
+import { PublicationPageComponent } from '../publication-page/publication-page.component';
+import { PublicationReviewComponent } from '../publication-review/publication-review.component';
+import { VinCheckComponent } from '../vin-check/vin-check.component';
+import { VinCheckPageComponent } from '../vin-check-page/vin-check-page.component';
+import { WatchVinComponent } from '../watch-vin/watch-vin.component';
+import { WatchVinPageComponent } from '../watch-vin-page/watch-vin-page.component';
 
 const appRoutes: Routes = [
   {path: '', component: PageContactComponent},
@@ -59,13 +64,11 @@ const appRoutes: Routes = [
   {path: 'CompleteSet', component:CompleteSetPageComponent },
   {path: 'DamagePage', component:DamagePageComponent },
   {path: 'PhotographyPage', component:PhotographyPageComponent },
+  {path: 'PublicationPage', component:PublicationPageComponent },
+  {path: 'VinCheckPage', component:VinCheckPageComponent },
+  {path: 'WatchVinPage', component:WatchVinPageComponent },
 
-
-
-
-
-
-
+  
 
 ]
 @NgModule({
@@ -107,6 +110,11 @@ const appRoutes: Routes = [
     PhotographyPageComponent,
     PublicationComponent,
     PublicationPageComponent,
+    PublicationReviewComponent,
+    VinCheckComponent,
+    VinCheckPageComponent,
+    WatchVinComponent,
+    WatchVinPageComponent,
   ],
   imports: [
     BrowserModule,

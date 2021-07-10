@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+
+.content-img-watch {
+  height: 20%;
+  max-width: 250px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 206, 205, 0.8) 0%,
+    rgba(198, 49, 41, 0.8) 102.89%
+  );
+  border-radius: 5px 0px 0px 5px;
+  padding: 50px 25px;
+}
+.img-watch {
+  max-width: 237px;
+}
+.container-watch {
+  display: flex;
+  flex-direction: row;
+}
+.content-text-watch {
+  max-width: 380px;
+  padding: 50px 40px 50px 40px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(43, 43, 43, 0.16);
+  border-radius: 4px;
+}
+.title-watch {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.border-watch {
+  width: 19px;
+  height: 5px;
+  background: #ff3b33;
+}
+.text-watch {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}

@@ -12,21 +12,23 @@
     </div>
     </div>
     <div class="menu-info">
-          <div class="container-contact">
-              <app-photography></app-photography>
-              <div class="container-menu-creating">
+        <div class="container-contact">
+            <div class="publication-page">
+                <app-publication></app-publication>
+            </div>
+            <div class="container-menu-creating">
                 <a routerLink="/CreatingLot" class="menu-text-creating backgroud "><p class="list list-backgroud">1</p>Информация по автомобилю</a>
                 <a  routerLink="/CompleteSet" class="menu-text-creating backgroud"><p class="list list-backgroud">2</p>Комплектация</a>
                 <a routerLink="/DamagePage" class="menu-text-creating backgroud "><p class="list list-backgroud">3</p>Повреждения</a>
                 <a routerLink="/PhotographyPage" class="menu-text-creating backgroud"><p class="list list-backgroud">4</p>Фотография</a>
-                <a routerLink="/PublicationPage" class="menu-text-creating "><p class="list ">5</p>Публикация</a>
-              </div>
-          </div>
-      </div>
-      <div class="border-div-creating">
-        <a class="next-creating-lot" routerLink="/PublicationPage">Далее</a>
+                <a routerLink="/PublicationPage" class="menu-text-creating backgroud"><p class="list list-backgroud">5</p>Публикация</a>
+            </div>
+        </div>
     </div>
-      <div class="container-footer">
+    <div>
+        <app-publication-review></app-publication-review>
+    </div>
+    </div>
+    <div class="container-footer">
         <app-footer></app-footer>
       </div>
-    </div>

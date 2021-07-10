@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+
+.container-vin-page {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 10px;
+  max-width: 592px;
+  padding: 50px 80px;
+  box-shadow: 0px 8px 24px rgba(43, 43, 43, 0.16);
+}
+.title-vin {
+  max-width: 380px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2b2b2b;
+}
+.border-vin {
+  width: 19px;
+  height: 5px;
+  background: #ff3b33;
+}
+.input-vin {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 299px;
+  height: 45px;
+}
+.btn-vin-lup {
+  border: none;
+  background: #84bb6a;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 10px;
+  padding: 13px 28px;
+}
+.text-vin {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.hover:hover {
+  text-decoration: double;
+  color: #ff3b33;
+}
+@media (max-width: 590px) {
+  .container-vin-page {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 10px;
+    max-width: 592px;
+    padding: 50px 20px;
+  }
+  .input-vin {
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+  }
+  .btn-vin-lup {
+    border: none;
+    background: #84bb6a;
+    border-radius: 5px;
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 13px 28px;
+  }
+  .container-iput-vin {
+    display: flex;
+    flex-direction: column;
+  }
+}
