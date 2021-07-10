@@ -3,11 +3,10 @@
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
 .container-creating-lot {
-  max-width: 835px;
   background: #ffffff;
   border-radius: 0px 10px 10px 0px;
   margin-right: 20px;
-  padding-right: 280px;
+  padding-left: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -35,40 +34,38 @@
   background: #ff3b33;
   margin-bottom: 35px;
 }
-.btn-creating-lot {
+.content-salon-btn {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  border: none;
-  background: #c4c4c4;
-  border-radius: 10px;
-  padding: 25px 35px;
-  margin-right: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.container-btn-complete {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.btn-complete-log {
+  border: 1px solid #6b6b6b;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
   font-family: Bliss Pro;
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  color: #ffffff;
-  line-height: 19px;
-  cursor: pointer;
-}
-.btn-creating-lot:hover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border: none;
-  background: #ff3b33;
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 25px 35px;
-  margin-right: 10px;
-}
-.img-btn {
-  margin-right: 10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6b6b;
+  padding: 15px 15px;
+  margin-left: 10px;
 }
 .content-btn-creating-lot {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+.btn-complete-log:hover {
+  border: 1px solid #84bb6a;
+  color: #000000;
+  font-weight: 600;
 }
 .container-setting-creating-lot {
   max-width: 380px;
@@ -78,6 +75,18 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
+}
+.right {
+  margin-left: 15px;
+}
+.container-checkbox-complete {
+  display: flex;
+  flex-direction: row;
+}
+.check-bokc-creating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .setting-text-creating-lot {
   font-family: Bliss Pro;
@@ -100,7 +109,7 @@
   background: none;
   position: absolute;
   right: 9px;
-  top: 10px;
+  top: 18px;
 }
 i {
   border: solid black;
@@ -112,6 +121,16 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+.btn-i-input-up {
+  border: none;
+  background: none;
+  position: absolute;
+  right: 9px;
+  top: 8px;
+}
+.up {
+  transform: rotate(-135deg);
+}
 .setting-input-creating-lot::placeholder {
   padding-left: 135px;
   color: #000000;
@@ -121,6 +140,10 @@ i {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+}
+.pading-placehol::placeholder {
+  padding-right: 120px;
+  padding-left: 0px;
 }
 .setting-input-creating-lot:hover {
   border: 1px solid #ff3b33;
@@ -132,7 +155,24 @@ i {
   box-sizing: border-box;
   border-radius: 5px;
 }
-
+.title-border-tip {
+  position: relative;
+  border-top: 1px solid #c4c4c4;
+}
+.container-setting-complet-lot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 480px;
+}
+.width {
+  width: 184px;
+  height: 45px;
+}
+.display {
+  right: 0px;
+  left: 160px;
+}
 @media (max-width: 645px) {
   .content-btn-creating-lot {
     display: flex;
@@ -151,6 +191,22 @@ i {
     margin-right: 20px;
     padding-right: 0px;
     display: flex;
+    flex-direction: column;
+  }
+  .container-btn-complete {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 380px) {
+  .container-checkbox-complete {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-setting-complet-lot {
+    flex-direction: column;
+  }
+  .setting-content-crating-lot {
     flex-direction: column;
   }
 }

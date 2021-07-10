@@ -35,6 +35,16 @@
   margin-top: 40px;
   background: #e5e5e5;
 }
+.container-contact {
+  width: 947px;
+  padding-right: 20px;
+}
+@media (max-width: 1278px) {
+  .container-contact {
+    width: 100%;
+    padding-right: 20px;
+  }
+}
 @media (max-width: 470px) {
   .menu-seting-content {
     display: flex;

@@ -1,0 +1,20 @@
+.check-bokc-creating {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #6b6b6b;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
+}
+.padding {
+  padding: 2px;
+}
+.invisible {
+  width: 1px;
+  height: 6px;
+  border: solid #ff3b33;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+}

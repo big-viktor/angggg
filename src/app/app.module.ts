@@ -33,6 +33,15 @@ import { SmsPageComponent } from '../sms-page/sms-page.component';
 import { SmsComponent } from '../sms/sms.component';
 import { CreatingLotComponent } from '../creating-lot/creating-lot.component';
 import { CreatingLotPageComponent } from '../creating-lot-page/creating-lot-page.component';
+import { CompleteSetPageComponent } from '../complete-set-page/complete-set-page.component';
+import { CompleteSetComponent } from '../complete-set/complete-set.component';
+import { CheckboxComponent } from '../checkbox/checkbox.component';
+import { DamageComponent } from '../damage/damage.component';
+import { DamagePageComponent } from '../damage-page/damage-page.component';
+import { PhotographyComponent } from '../photography/photography.component';
+import { PhotographyPageComponent } from '../photography-page/photography-page.component';
+import { PublicationComponent } from './publication/publication.component';
+import { PublicationPageComponent } from './publication-page/publication-page.component';
 
 const appRoutes: Routes = [
   {path: '', component: PageContactComponent},
@@ -47,6 +56,12 @@ const appRoutes: Routes = [
   {path: 'PaymentHistory', component:PaymentHistoryPageComponent },
   {path: 'SmsPage', component:SmsPageComponent },
   {path: 'CreatingLot', component:CreatingLotPageComponent },
+  {path: 'CompleteSet', component:CompleteSetPageComponent },
+  {path: 'DamagePage', component:DamagePageComponent },
+  {path: 'PhotographyPage', component:PhotographyPageComponent },
+
+
+
 
 
 
@@ -83,6 +98,15 @@ const appRoutes: Routes = [
     SmsComponent,
     CreatingLotComponent,
     CreatingLotPageComponent,
+    CompleteSetPageComponent,
+    CompleteSetComponent,
+    CheckboxComponent,
+    DamageComponent,
+    DamagePageComponent,
+    PhotographyComponent,
+    PhotographyPageComponent,
+    PublicationComponent,
+    PublicationPageComponent,
   ],
   imports: [
     BrowserModule,
