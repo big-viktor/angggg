@@ -1,0 +1,226 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+
+.container-repos {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 250px;
+}
+.content-img-ifo {
+  display: flex;
+  flex-direction: row;
+}
+.content-info-avto-repo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-repos {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #707070;
+}
+.title-repos-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.name-ifo-avto {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #707070;
+  margin-left: 50px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.text-ifo-avto {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 80px;
+  text-align: left;
+  display: flex;
+  color: #2b2b2b;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.text-ifo-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+  margin-left: 50px;
+}
+.content-img-repor-min {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cotainer-dtp-ifo {
+  display: flex;
+  flex-direction: row;
+}
+.container-svodka {
+  display: flex;
+  flex-direction: column;
+}
+.content-dtp {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.title-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.title-dtp {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.text-dtp {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.img-dtp {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.limited-container {
+  max-width: 380px;
+  padding-top: 40px;
+}
+.name-ifo-limited {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #707070;
+}
+.text-ifo-limited {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.title-limited {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.limited-img-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.img-limited {
+  margin-left: 10px;
+}
+.content-info-avto-limited {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 420px) {
+  .cotainer-dtp-ifo {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-info-avto-limited {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1081px) {
+  .container-repos {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 745px) {
+  .content-img-ifo {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-img-report {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+  }
+  .name-ifo-avto {
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .text-ifo-avto {
+    margin-right: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .text-ifo-name {
+    margin-left: 20px;
+  }
+}

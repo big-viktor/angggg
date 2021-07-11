@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { Routes, RouterModule } from '@angular/router';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SettingComponent } from '../setting/setting.component';
@@ -49,31 +48,30 @@ import { WatchVinComponent } from '../watch-vin/watch-vin.component';
 import { WatchVinPageComponent } from '../watch-vin-page/watch-vin-page.component';
 import { ChartComponent } from '../chart/chart.component';
 import { ReportsPageComponent } from '../reports-page/reports-page.component';
+import { ReportsComponent } from '../reports/reports.component';
+import { PossessionComponent } from './possession/possession.component';
 
 const appRoutes: Routes = [
-  {path: '', component: PageContactComponent},
-  {path: 'Lot', component: CardLotPageComponent},
-  {path: 'Info', component: InfoSettingPageComponent},
-  {path: 'Moderation', component: ModerationPageComponent},
-  {path: 'SelectedLot', component: SelectedLotPageComponent },
-  {path: 'CompletedLot', component: CompletedLotsPageComponent },
-  {path: 'MyAdsLot', component: MyAdsPageComponent },
-  {path: 'LotArchive', component: LotArchivePageComponent },
-  {path: 'MyTariff', component: MyTariffPageComponent },
-  {path: 'PaymentHistory', component:PaymentHistoryPageComponent },
-  {path: 'SmsPage', component:SmsPageComponent },
-  {path: 'CreatingLot', component:CreatingLotPageComponent },
-  {path: 'CompleteSet', component:CompleteSetPageComponent },
-  {path: 'DamagePage', component:DamagePageComponent },
-  {path: 'PhotographyPage', component:PhotographyPageComponent },
-  {path: 'PublicationPage', component:PublicationPageComponent },
-  {path: 'VinCheckPage', component:VinCheckPageComponent },
-  {path: 'WatchVinPage', component:WatchVinPageComponent },
-  {path: 'ReportsPage', component:ReportsPageComponent },
-
-  
-
-]
+  { path: '', component: PageContactComponent },
+  { path: 'Lot', component: CardLotPageComponent },
+  { path: 'Info', component: InfoSettingPageComponent },
+  { path: 'Moderation', component: ModerationPageComponent },
+  { path: 'SelectedLot', component: SelectedLotPageComponent },
+  { path: 'CompletedLot', component: CompletedLotsPageComponent },
+  { path: 'MyAdsLot', component: MyAdsPageComponent },
+  { path: 'LotArchive', component: LotArchivePageComponent },
+  { path: 'MyTariff', component: MyTariffPageComponent },
+  { path: 'PaymentHistory', component: PaymentHistoryPageComponent },
+  { path: 'SmsPage', component: SmsPageComponent },
+  { path: 'CreatingLot', component: CreatingLotPageComponent },
+  { path: 'CompleteSet', component: CompleteSetPageComponent },
+  { path: 'DamagePage', component: DamagePageComponent },
+  { path: 'PhotographyPage', component: PhotographyPageComponent },
+  { path: 'PublicationPage', component: PublicationPageComponent },
+  { path: 'VinCheckPage', component: VinCheckPageComponent },
+  { path: 'WatchVinPage', component: WatchVinPageComponent },
+  { path: 'ReportsPage', component: ReportsPageComponent },
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -120,13 +118,11 @@ const appRoutes: Routes = [
     WatchVinPageComponent,
     ChartComponent,
     ReportsPageComponent,
+    ReportsComponent,
+    PossessionComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
-  ],
+  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

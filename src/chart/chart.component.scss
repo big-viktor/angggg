@@ -1,4 +1,92 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
 .divChart {
-  max-width: 100%;
+  width: 608px;
   height: 100%;
+  padding-bottom: 100px;
+}
+.title-sped {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.content-warning-speed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.warning-speed {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2b2b2b;
+}
+.img-warning {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.chart-speed-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d6d6d6;
+}
+.chart-speed-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.week-sped {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+  i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 20px;
+  }
+  .down {
+    transform: rotate(45deg);
+  }
+}
+.week-sped:hover {
+  .down {
+    transform: rotate(-135deg);
+  }
+}
+.myChart {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 695px) {
+  .divChart {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+  }
 }

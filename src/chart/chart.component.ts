@@ -28,13 +28,16 @@ export class ChartComponent implements OnInit {
           },
         ],
       },
-      // options: {
-      //   scales: {
-      //     y: {
-      //       beginAtZero: false,
-      //     },
-      //   },
-      // },
+      options: {
+        maintainAspectRatio: true,
+        responsive: true,
+        onResize() {},
+        scales: {
+          y: {
+            beginAtZero: false,
+          },
+        },
+      },
     });
   }
 }
