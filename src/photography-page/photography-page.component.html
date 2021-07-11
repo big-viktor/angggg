@@ -1,32 +1,43 @@
 <div class="container-page-contact">
-    <div>
-      <app-header></app-header>
-    </div>
+  <div>
+    <app-header></app-header>
+  </div>
   <div class="content-page-contact">
     <div class="title-page">
       <div>
         <p class="title-page-name">Главная / Сообщения</p>
-    </div>
-    <div>
-      <p class="delet-title"> Очистить объявление  <img src="/assets/fa-solid_trash.png" alt="#" class="img-title-delet"></p>
-    </div>
+      </div>
+      <div>
+        <p class="delet-title"> Очистить объявление <img src="/assets/fa-solid_trash.png" alt="#"
+            class="img-title-delet"></p>
+      </div>
     </div>
     <div class="menu-info">
-          <div class="container-contact">
-              <app-photography></app-photography>
-              <div class="container-menu-creating">
-                <a routerLink="/CreatingLot" class="menu-text-creating backgroud "><p class="list list-backgroud">1</p>Информация по автомобилю</a>
-                <a  routerLink="/CompleteSet" class="menu-text-creating backgroud"><p class="list list-backgroud">2</p>Комплектация</a>
-                <a routerLink="/DamagePage" class="menu-text-creating backgroud "><p class="list list-backgroud">3</p>Повреждения</a>
-                <a routerLink="/PhotographyPage" class="menu-text-creating backgroud"><p class="list list-backgroud">4</p>Фотография</a>
-                <a routerLink="/PublicationPage" class="menu-text-creating "><p class="list ">5</p>Публикация</a>
-              </div>
-          </div>
+      <div class="container-contact">
+        <app-photography></app-photography>
+        <div class="container-menu-creating">
+          <a routerLink="/CreatingLot" class="menu-text-creating backgroud ">
+            <p class="list list-backgroud">1</p>Информация по автомобилю
+          </a>
+          <a routerLink="/CompleteSet" class="menu-text-creating backgroud">
+            <p class="list list-backgroud">2</p>Комплектация
+          </a>
+          <a routerLink="/DamagePage" class="menu-text-creating backgroud ">
+            <p class="list list-backgroud">3</p>Повреждения
+          </a>
+          <a routerLink="/PhotographyPage" class="menu-text-creating backgroud">
+            <p class="list list-backgroud">4</p>Фотография
+          </a>
+          <a routerLink="/PublicationPage" class="menu-text-creating ">
+            <p class="list ">5</p>Публикация
+          </a>
+        </div>
       </div>
-      <div class="border-div-creating">
-        <a class="next-creating-lot" routerLink="/PublicationPage">Далее</a>
     </div>
-      <div class="container-footer">
-        <app-footer></app-footer>
-      </div>
+    <div class="border-div-creating">
+      <a class="next-creating-lot" routerLink="/PublicationPage">Далее</a>
     </div>
+    <div class="container-footer">
+      <app-footer></app-footer>
+    </div>
+  </div>
