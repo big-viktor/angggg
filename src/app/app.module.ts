@@ -49,7 +49,7 @@ import { WatchVinPageComponent } from '../watch-vin-page/watch-vin-page.componen
 import { ChartComponent } from '../chart/chart.component';
 import { ReportsPageComponent } from '../reports-page/reports-page.component';
 import { ReportsComponent } from '../reports/reports.component';
-import { PossessionComponent } from './possession/possession.component';
+import { PossessionComponent } from '../possession/possession.component';
 
 const appRoutes: Routes = [
   { path: '', component: PageContactComponent },
