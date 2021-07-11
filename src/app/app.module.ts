@@ -47,6 +47,8 @@ import { VinCheckComponent } from '../vin-check/vin-check.component';
 import { VinCheckPageComponent } from '../vin-check-page/vin-check-page.component';
 import { WatchVinComponent } from '../watch-vin/watch-vin.component';
 import { WatchVinPageComponent } from '../watch-vin-page/watch-vin-page.component';
+import { ChartComponent } from '../chart/chart.component';
+import { ReportsPageComponent } from '../reports-page/reports-page.component';
 
 const appRoutes: Routes = [
   {path: '', component: PageContactComponent},
@@ -67,6 +69,7 @@ const appRoutes: Routes = [
   {path: 'PublicationPage', component:PublicationPageComponent },
   {path: 'VinCheckPage', component:VinCheckPageComponent },
   {path: 'WatchVinPage', component:WatchVinPageComponent },
+  {path: 'ReportsPage', component:ReportsPageComponent },
 
   
 
@@ -115,6 +118,8 @@ const appRoutes: Routes = [
     VinCheckPageComponent,
     WatchVinComponent,
     WatchVinPageComponent,
+    ChartComponent,
+    ReportsPageComponent,
   ],
   imports: [
     BrowserModule,
