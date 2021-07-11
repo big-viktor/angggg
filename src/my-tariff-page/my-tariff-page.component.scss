@@ -8,6 +8,12 @@
   max-width: 1920px;
   margin: 0 auto;
 }
+.container-menu {
+  display: flex;
+  flex-direction: row;
+  background: #fafafa;
+  height: 100%;
+}
 .container-page-contact::after {
   content: "";
   background-image: url("/assets/image 41.png");
@@ -29,6 +35,10 @@
 .menu-content-page-contact {
   display: flex;
   flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  background: #fafafa;
+  height: 100%;
 }
 .container-footer {
   width: 100%;

@@ -27,14 +27,20 @@
 .content-page-contact {
   margin: 0 auto;
 }
-
-.menu-content-page-contact {
+.container-menu {
   display: flex;
   flex-direction: row;
 }
+.menu-content-page-contact {
+  display: flex;
+  flex-direction: row;
+  background: #fafafa;
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+}
 .container-footer {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 140px;
   background: #e5e5e5;
 }
 @media (max-width: 990px) {
