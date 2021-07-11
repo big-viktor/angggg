@@ -51,6 +51,10 @@ import { ReportsPageComponent } from '../reports-page/reports-page.component';
 import { ReportsComponent } from '../reports/reports.component';
 import { PossessionComponent } from '../possession/possession.component';
 import { RepairComponent } from '../repair/repair.component';
+import { PartnerComponent } from '../partner/partner.component';
+import { PartnerPageComponent } from '../partner-page/partner-page.component';
+import { HeaderLogComponent } from '../header-log/header-log.component';
+import { CardAuctionComponent } from '../card-auction/card-auction.component';
 
 const appRoutes: Routes = [
   { path: '', component: PageContactComponent },
@@ -72,6 +76,7 @@ const appRoutes: Routes = [
   { path: 'VinCheckPage', component: VinCheckPageComponent },
   { path: 'WatchVinPage', component: WatchVinPageComponent },
   { path: 'ReportsPage', component: ReportsPageComponent },
+  { path: 'PartnerPage', component: PartnerPageComponent },
 ];
 @NgModule({
   declarations: [
@@ -122,6 +127,10 @@ const appRoutes: Routes = [
     ReportsComponent,
     PossessionComponent,
     RepairComponent,
+    PartnerComponent,
+    PartnerPageComponent,
+    HeaderLogComponent,
+    CardAuctionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
   providers: [],
