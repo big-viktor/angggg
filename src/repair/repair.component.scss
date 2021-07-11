@@ -1,0 +1,226 @@
+.container-repair {
+  max-width: 650px;
+}
+.title-repair {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.name-title-repair {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.img-repair {
+  margin-left: 15px;
+}
+.text-repair {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+  justify-content: space-between;
+}
+.name-repair {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #707070;
+}
+.list-repair {
+  max-width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top-border {
+  padding-top: 15px;
+  border-top: 1px solid #d6d6d6;
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transition: 0.9;
+}
+.text-repair:hover {
+  .down {
+    transform: rotate(-135deg);
+    transition: 0.9;
+  }
+}
+.invisible {
+  display: none;
+}
+.text-info-repair {
+  max-width: 255px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.border-botom {
+  max-width: 600px;
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.list-repairs {
+  max-width: 435px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name-repairs {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #707070;
+}
+.container-repair-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 440px;
+  justify-content: space-between;
+}
+.img-repairs-wrning {
+  margin-right: 10px;
+}
+.info-repairs {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.text-repair-text {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.text-repairs {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+  margin-right: 250px;
+}
+.content-img-repair {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.add-img {
+  background: #333333;
+  opacity: 0.85;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 18px;
+}
+.border-top {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+@media (max-width: 580px) {
+  .content-img-repair {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .add-img {
+    margin-top: 20px;
+    margin-right: 20px;
+    max-width: 400px;
+    background: #333333;
+    opacity: 0.85;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 18px;
+  }
+  .container-repair-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .list-repairs {
+    max-width: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text-repair-text {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 400px) {
+  .list-repair {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

@@ -4,11 +4,13 @@
 }
 .container-creating-lot {
   background: #ffffff;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 10px 0px 0px;
   padding-left: 30px;
   margin-right: 20px;
+  padding-right: 40px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px;
 }
 .creating-lot-title {
   font-family: Bliss Pro;
@@ -91,9 +93,9 @@
 @media (max-width: 1082px) {
   .container-creating-lot {
     background: #ffffff;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 0px 0px;
     margin-right: 20px;
-    padding-right: 30px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     max-width: 800px;
@@ -108,7 +110,7 @@
   .container-creating-lot {
     max-width: 835px;
     background: #ffffff;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 0px 0px;
     margin-right: 20px;
     padding-right: 0px;
     display: flex;

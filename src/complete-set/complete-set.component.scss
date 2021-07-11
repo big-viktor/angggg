@@ -4,9 +4,10 @@
 }
 .container-creating-lot {
   background: #ffffff;
-  border-radius: 0px 10px 10px 0px;
-  margin-right: 70px;
-  padding-left: 40px;
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 20px;
+  padding-right: 95px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -174,6 +175,10 @@ i {
   left: 160px;
 }
 @media (max-width: 645px) {
+  .container-creating-lot {
+    padding-right: 10px;
+    margin-left: 20px;
+  }
   .content-btn-creating-lot {
     display: flex;
     flex-direction: column;

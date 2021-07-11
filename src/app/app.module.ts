@@ -50,6 +50,7 @@ import { ChartComponent } from '../chart/chart.component';
 import { ReportsPageComponent } from '../reports-page/reports-page.component';
 import { ReportsComponent } from '../reports/reports.component';
 import { PossessionComponent } from '../possession/possession.component';
+import { RepairComponent } from '../repair/repair.component';
 
 const appRoutes: Routes = [
   { path: '', component: PageContactComponent },
@@ -120,6 +121,7 @@ const appRoutes: Routes = [
     ReportsPageComponent,
     ReportsComponent,
     PossessionComponent,
+    RepairComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
   providers: [],
