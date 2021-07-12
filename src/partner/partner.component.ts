@@ -9,7 +9,7 @@ export class PartnerComponent implements OnInit {
   currentItem = 'Аукцион по продаже автомобилей';
   foto = '/assets/Frame (4).png';
   text = 'Автомобили от Банков,Страховых и ЛизинговыхКомпаний';
-  price = 'Кол-во: 125';
+  price = 'Кол-во: 302';
   currentItem2 = 'Аукцион по продаже автомобильних запчастей';
   foto2 = '/assets/Frame (3).png';
   text2 = 'Новые и БУ запачастилотам и поштучно';
@@ -19,14 +19,9 @@ export class PartnerComponent implements OnInit {
   text3 = 'Имущество от Банков и Лизинговых Компаний';
   price3 = 'Кол-во: 125';
   currentItem4 = 'Продажа автомобилейот собственника';
-  foto4s = '/assets/Frame (5).png';
+  foto4 = '/assets/Frame (5).png';
   text4 = 'Прямая';
-  price4 = 'Кол-во: 125';
-  
-function nInit() {
-}
-
-  constructor() {}
+  price4 = 'Кол-во: 223';
 
   ngOnInit(): void {}
 }

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.border {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.container-report-lot-title {
+  display: flex;
+  flex-direction: row;
+}
+.text-report-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #707070;
+}
+.text-title-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.name-text-report-info {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+}
+.content-report-gov {
+  background: #f8f8f8;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.container-info-data-report {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.data-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.margin {
+  margin-left: 20px;
+}
+.btn-report {
+  background: #84ba6c;
+  border-radius: 4px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 32px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.btn-report:hover {
+  margin-left: 10px;
+  background: #ffffff;
+  border: 1px solid #84ba6c;
+  border-radius: 4px;
+  color: #84ba6c;
+}
+@media (max-width: 970px) {
+  .container-info-data-report {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

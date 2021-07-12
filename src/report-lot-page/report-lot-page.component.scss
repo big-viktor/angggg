@@ -1,0 +1,108 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.container-page-contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.container-page-contact::after {
+  content: "";
+  background-image: url("/assets/image 41.png");
+  background-size: 50% 50% 50% 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.02;
+  position: absolute;
+  z-index: -1;
+}
+.title-page {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+.container-contact {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(43, 43, 43, 0.16);
+  border-radius: 4px;
+  width: 1060px;
+  padding-left: 60px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-right: 70px;
+}
+.content-page-contact {
+  margin: 0 auto;
+}
+.menu-content-page-contact {
+  display: flex;
+  flex-direction: row;
+}
+.container-footer {
+  width: 100%;
+  margin-top: 40px;
+  background: #e5e5e5;
+}
+@media (max-width: 470px) {
+  .menu-seting-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 855px) {
+  .menu-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .conteiner-price {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 705px) {
+  .menu-content-page-contact {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.menu-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-page-name {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #979393;
+}
+@media (max-width: 1190px) {
+  .container-contact {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 1px 6px rgba(43, 43, 43, 0.16);
+    border-radius: 4px;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 70px;
+  }
+}

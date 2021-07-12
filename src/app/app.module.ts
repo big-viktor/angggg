@@ -55,6 +55,16 @@ import { PartnerComponent } from '../partner/partner.component';
 import { PartnerPageComponent } from '../partner-page/partner-page.component';
 import { HeaderLogComponent } from '../header-log/header-log.component';
 import { CardAuctionComponent } from '../card-auction/card-auction.component';
+import { CarouselComponent } from '../carousel/carousel.component';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
+import { PartnerImgPageComponent } from '../partner-img-page/partner-img-page.component';
+import { PartnerBorderComponent } from '../partner-border/partner-border.component';
+import { LogComponent } from '../log/log.component';
+import { LogPageComponent } from '../log-page/log-page.component';
+import { TelLogComponent } from '../tel-log/tel-log.component';
+import { TelLogPageComponent } from '../tel-log-page/tel-log-page.component';
+import { ReportLotComponent } from '../report-lot/report-lot.component';
+import { ReportLotPageComponent } from '../report-lot-page/report-lot-page.component';
 
 const appRoutes: Routes = [
   { path: '', component: PageContactComponent },
@@ -77,6 +87,10 @@ const appRoutes: Routes = [
   { path: 'WatchVinPage', component: WatchVinPageComponent },
   { path: 'ReportsPage', component: ReportsPageComponent },
   { path: 'PartnerPage', component: PartnerPageComponent },
+  { path: 'PartnerImgPage', component: PartnerImgPageComponent },
+  { path: 'LogPage', component: LogPageComponent },
+  { path: 'TelLogPage', component: TelLogPageComponent },
+  { path: 'ReportLotPage', component: ReportLotPageComponent },
 ];
 @NgModule({
   declarations: [
@@ -131,8 +145,22 @@ const appRoutes: Routes = [
     PartnerPageComponent,
     HeaderLogComponent,
     CardAuctionComponent,
+    CarouselComponent,
+    PartnerImgPageComponent,
+    PartnerBorderComponent,
+    LogComponent,
+    LogPageComponent,
+    TelLogComponent,
+    TelLogPageComponent,
+    ReportLotComponent,
+    ReportLotPageComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes),
+    IvyCarouselModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

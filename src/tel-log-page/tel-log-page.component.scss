@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.container-page-contact {
+}
+.container-page-contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container-page-contact::after {
+  content: "";
+  background-image: url("/assets/image 41.png");
+  background-size: 50% 50% 50% 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.02;
+  position: absolute;
+  z-index: -1;
+}
+
+.container-footer {
+  z-index: -100;
+  width: 100%;
+  margin-top: 40px;
+  background: #e5e5e5;
+}
+
+.menu-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 855px) {
+  .menu-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

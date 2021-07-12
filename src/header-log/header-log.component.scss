@@ -15,7 +15,6 @@
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 15px;
-  border-bottom: 1px solid #c4c4c4;
 }
 .conteiner-menu-header {
   display: flex;
@@ -72,6 +71,8 @@
   flex-direction: row;
   justify-content: center;
   padding-left: 40px;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
 }
 .text-menu-header {
   margin-top: 10px;
@@ -138,6 +139,11 @@
   }
 }
 @media (max-width: 545px) {
+  .content-btn-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .menu-header-content {
     display: flex;
     flex-direction: row;
