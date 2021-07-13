@@ -26,6 +26,7 @@
 }
 .content-page-contact {
   margin: 0 auto;
+  padding-right: 20px;
 }
 .container-menu {
   display: flex;
@@ -43,6 +44,7 @@
   margin-top: 140px;
   background: #e5e5e5;
 }
+
 @media (max-width: 990px) {
   .container-contact {
     width: 100%;
@@ -55,6 +57,10 @@
   }
 }
 @media (max-width: 855px) {
+  .container-menu {
+    display: flex;
+    flex-direction: column;
+  }
   .menu-info {
     display: flex;
     flex-direction: row;

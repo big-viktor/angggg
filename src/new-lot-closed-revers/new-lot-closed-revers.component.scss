@@ -1,0 +1,240 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+p {
+  margin: 0px;
+}
+.content-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 946px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 40px;
+}
+.card-name-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-info-avto-content {
+  display: flex;
+  flex-direction: column;
+}
+.content-card-info {
+  display: flex;
+  flex-direction: row;
+}
+.card-display-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.card-display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.card-display-component-favorite {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+.card-display-ifos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.card-lot-stavka-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.displau {
+  display: flex;
+  flex-direction: row;
+}
+.lot-card-price-content {
+  margin-left: 70px;
+}
+.card-lot-info-avto-content {
+  margin-left: 120px;
+}
+.img-favorite {
+  width: 12px;
+  height: 12px;
+}
+.img-card {
+  width: 165px;
+  height: 165px;
+  margin-left: 20px;
+}
+.text-card-info-lot {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 22px;
+  color: #6b6b6b;
+  margin-left: 20px;
+}
+.text-card-info {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 22px;
+  color: #6b6b6b;
+  margin-right: 0px;
+}
+.text-card-info-two {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 183.9%;
+  color: #000000;
+  text-align: right;
+}
+.text-card-info-title {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #919191;
+}
+.text-card-info-title-two {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+}
+.card-text-lot-active {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 183.9%;
+  display: flex;
+  align-items: center;
+  color: #ff3b33;
+}
+.card-display-info-lot {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-card-lot {
+  background: #ffffff;
+  border: 1px solid #84ba6c;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #84ba6c;
+  margin-top: 40px;
+  margin-right: 0px;
+  margin-left: 50px;
+}
+.activ-text-lot-card {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 183.9%;
+  color: #84ba6c;
+  margin-left: 5px;
+}
+.container-status-lot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+.card-lot-status {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #84ba6c;
+}
+.margin {
+  margin-right: 70px;
+}
+.card-display-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.content-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 946px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 40px;
+  padding-left: 10px;
+  max-width: 210px;
+}
+.content-card-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.content-card-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.card-display-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-lot-info-avto-content {
+  margin-left: 0px;
+}
+.lot-card-price-content {
+  margin-left: 0px;
+}
+.card-display-component-favorite {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.text-card-info-lot {
+  margin-left: 0px;
+}
+
+.card-display-info-lot {
+  display: flex;
+  justify-content: flex-start;
+}
+.img-card {
+  width: 165px;
+  height: 165px;
+  margin-left: 30px;
+}

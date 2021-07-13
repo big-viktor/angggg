@@ -1,0 +1,25 @@
+<div class="container-page-contact ">
+    <div class="header-page">
+        <app-header></app-header>
+    </div>
+    <div class="conyainer-title-report">
+        <div class="content-title">
+            <div>
+                <p class="title-text">Главная / Новости</p>
+                <h1 class="title-name">Новости</h1>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+    <div class="container-display">
+        <app-news [src]="src" [name]="name" [text]="text" [data]="data" [router]="router"></app-news>
+        <app-news [src]="src1" [name]="name1" [text]="text1" [data]="data1"></app-news>
+        <app-news [src]="src" [name]="name" [text]="text" [data]="data"></app-news>
+        <app-news [src]="src1" [name]="name1" [text]="text1" [data]="data1" [router]="router"></app-news>
+
+    </div>
+    <div class="container-footer">
+        <app-footer></app-footer>
+    </div>
+</div>

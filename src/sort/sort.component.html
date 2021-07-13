@@ -1,0 +1,31 @@
+<div >
+    <div class="container-sort">
+        <div class="content-sort">
+            <p class="title-sort">Сортировать:</p>
+            <div class="cont-sort">
+            <app-down-check [name]="currentName1" [text]="currentText1"></app-down-check>
+            </div>
+             <div class="cont-sort">
+            <app-down-check [name]="currentName1" [text]="currentText2"></app-down-check>
+            </div>
+            <div class="cont-sort">
+            <app-down-check [name]="currentName1" [text]="currentText3"></app-down-check>
+            </div>
+        </div>
+        <div class="content-sort-two">
+             <div class="cont-sort">
+                <app-down-check [name]="currentName1" [text]="currentText4"></app-down-check>
+            </div>
+        <img class="img-sort"  style="cursor: pointer;" src="/assets/Frame 255 (2).png" routerLink="/CarAuctionsPage" alt="">
+        <img style="cursor: pointer;" routerLink="/CarAuctionsPageRevers" class="img-sort" src="/assets/Frame 255 (3).png" alt="">
+        </div>
+    </div>
+    <div class="container-content-lot">
+        <div class="display-colum">
+            <app-new-lot></app-new-lot>
+        </div>
+        <div class="display-colum">
+            <app-new-lot-closed></app-new-lot-closed>
+        </div>
+    </div>
+</div>

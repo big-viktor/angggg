@@ -10,7 +10,7 @@ p {
   flex-direction: column;
   background: #ffffff;
   border-radius: 0px 10px 10px 0px;
-  max-width: 960px;
+  width: 890px;
   padding: 0px 35px 50px 40px;
 }
 .content-info-my-tariff {
@@ -161,6 +161,12 @@ p {
   color: #84bb6a;
   padding: 15px 30px;
   cursor: pointer;
+}
+
+@media (max-width: 1305px) {
+  .container-my-tariff {
+    width: 100%;
+  }
 }
 @media (max-width: 945px) {
   .container-price-list-tariff {

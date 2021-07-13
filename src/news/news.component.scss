@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+
+.container-news {
+  margin-top: 20px;
+  width: 1000px;
+  height: 212px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.content-img-text {
+  display: flex;
+  flex-direction: row;
+}
+.container-text {
+  margin-left: 30px;
+}
+.title-news {
+  max-width: 496px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #190706;
+}
+.border-news {
+  width: 19px;
+  height: 5px;
+  background: #ff3b33;
+}
+.text-news {
+  max-width: 433px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 128.4%;
+  color: #000000;
+}
+.data-news {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 183.9%;
+  text-align: right;
+  color: #6b6b6b;
+}
+i {
+  border: solid #c4c4c4;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.router-news {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 183.9%;
+  text-align: right;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+.router-news:hover {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 183.9%;
+  text-align: right;
+  color: #ff3b33;
+  i {
+    border: solid #ff3b33;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+}
+.data-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

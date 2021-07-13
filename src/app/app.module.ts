@@ -65,6 +65,33 @@ import { TelLogComponent } from '../tel-log/tel-log.component';
 import { TelLogPageComponent } from '../tel-log-page/tel-log-page.component';
 import { ReportLotComponent } from '../report-lot/report-lot.component';
 import { ReportLotPageComponent } from '../report-lot-page/report-lot-page.component';
+import { LotComponent } from '../lot/lot.component';
+import { LotPageComponent } from '../lot-page/lot-page.component';
+import { CarAuctionsComponent } from '../car-auctions/car-auctions.component';
+import { CarAuctionsPageComponent } from '../car-auctions-page/car-auctions-page.component';
+import { ClosedLotComponent } from '../closed-lot/closed-lot.component';
+import { ClosedLotPageComponent } from '../closed-lot-page/closed-lot-page.component';
+import { CompletedPublicationComponent } from '../completed-publication/completed-publication.component';
+import { CompletedPublicationPageComponent } from '../completed-publication-page/completed-publication-page.component';
+import { DownCheckComponent } from '../down-check/down-check.component';
+import { DownCheckMenuComponent } from '../down-check-menu/down-check-menu.component';
+import { SortComponent } from '../sort/sort.component';
+import { NewLotComponent } from '../new-lot/new-lot.component';
+import { NewLotClosedComponent } from '../new-lot-closed/new-lot-closed.component';
+import { CarAuctionsPageReversComponent } from '../car-auctions-page-revers/car-auctions-page-revers.component';
+import { NewLotReversComponent } from '../new-lot-revers/new-lot-revers.component';
+import { NewLotClosedReversComponent } from '../new-lot-closed-revers/new-lot-closed-revers.component';
+import { SortReversComponent } from '../sort-revers/sort-revers.component';
+import { AnnouncementPageComponent } from '../announcement-page/announcement-page.component';
+import { SortReversTwoComponent } from '../sort-revers-two/sort-revers-two.component';
+import { DownCheckMenuReversComponent } from '../down-check-menu-revers/down-check-menu-revers.component';
+import { NewsPageComponent } from '../news-page/news-page.component';
+import { NewsComponent } from '../news/news.component';
+import { NewsDetailsPageComponent } from '../news-details-page/news-details-page.component';
+import { NewsDetailsComponent } from '../news-details/news-details.component';
+import { AboutCompanyComponent } from '../about-company/about-company.component';
+import { AboutCompanyPageComponent } from '../about-company-page/about-company-page.component';
+import { SliderFotoComponent } from '../slider-foto/slider-foto.component';
 
 const appRoutes: Routes = [
   { path: '', component: PageContactComponent },
@@ -91,6 +118,19 @@ const appRoutes: Routes = [
   { path: 'LogPage', component: LogPageComponent },
   { path: 'TelLogPage', component: TelLogPageComponent },
   { path: 'ReportLotPage', component: ReportLotPageComponent },
+  { path: 'LotPage', component: LotPageComponent },
+  { path: 'CarAuctionsPage', component: CarAuctionsPageComponent },
+  { path: 'ClosedLotPage', component: ClosedLotPageComponent },
+  {
+    path: 'CompletedPublicationPage',
+    component: CompletedPublicationPageComponent,
+  },
+  { path: 'CarAuctionsPageRevers', component: CarAuctionsPageReversComponent },
+  { path: 'AnnouncementPage', component: AnnouncementPageComponent },
+  { path: 'NewsPage', component: NewsPageComponent },
+  { path: 'NewsDetailsPage', component: NewsDetailsPageComponent },
+  { path: 'AboutCompanyPage', component: AboutCompanyPageComponent },
+  { path: 'SliderFotoComponent', component: SliderFotoComponent },
 ];
 @NgModule({
   declarations: [
@@ -154,6 +194,33 @@ const appRoutes: Routes = [
     TelLogPageComponent,
     ReportLotComponent,
     ReportLotPageComponent,
+    LotComponent,
+    LotPageComponent,
+    CarAuctionsComponent,
+    CarAuctionsPageComponent,
+    ClosedLotComponent,
+    ClosedLotPageComponent,
+    CompletedPublicationComponent,
+    CompletedPublicationPageComponent,
+    DownCheckComponent,
+    DownCheckMenuComponent,
+    SortComponent,
+    NewLotComponent,
+    NewLotClosedComponent,
+    CarAuctionsPageReversComponent,
+    NewLotReversComponent,
+    NewLotClosedReversComponent,
+    SortReversComponent,
+    AnnouncementPageComponent,
+    SortReversTwoComponent,
+    DownCheckMenuReversComponent,
+    NewsPageComponent,
+    NewsComponent,
+    NewsDetailsPageComponent,
+    NewsDetailsComponent,
+    AboutCompanyComponent,
+    AboutCompanyPageComponent,
+    SliderFotoComponent,
   ],
   imports: [
     BrowserModule,

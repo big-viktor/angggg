@@ -1,0 +1,77 @@
+<div class="content-card" style="cursor: pointer;" routerLink="/LotPage">
+    <div><img src="/assets/Mask Group.png" alt="#" class="img-card"></div>
+    <div class="card-info-avto-content">
+        <p class="text-card-info-title">Лот 92-21331</p>
+        <h1 class="text-card-info-title-two">BMW 5 серии VII (G30/G31)</h1>
+       <div class="content-card-info">
+        <div>
+            <div class="card-display">
+                <p class="text-card-info">Год выпуска:</p>
+                <p class="text-card-info-two"> 2017</p>
+            </div>
+            <div class="card-display">
+                <p class="text-card-info">Город:</p>
+                <p class="text-card-info-two"> Москва</p>
+            </div>
+            <div class="card-display">
+                <p class="text-card-info">Тип торгов:</p>
+                <p class="card-text-lot-active"> Открытый</p>
+            </div>
+            <div class="card-display">
+                <p class="text-card-info">Текущая цена:</p>
+                <p class="text-card-info-two"> 5 859 990₽</p>
+            </div>
+        </div>
+        <div class="card-lot-info-avto-content">
+            <div class="card-display">
+                <img src="/assets/Mask Group (1).png" alt="">
+                <p class="text-card-info-two"> АКПП</p>
+            </div>
+            <div class="card-display">
+                <img src="/assets/Mask Group (2).png" alt="">
+                <p class="text-card-info-two"> 4.4 л / 407 л.с. / Бензин</p>
+            </div>
+            <div class="card-display">
+                <img src="/assets/Mask Group (3).png" alt="">
+                <p class="text-card-info-two"></p>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="lot-card-price-content">
+        <div class="card-display-component-favorite">
+            <p class="text-card-info-two">В избраном </p>
+            <img (click)="toggle()" class="img-favorite" [src]="image" alt="#">
+            <div class="container-status-lot">
+                <div class="card-lot-status"></div>
+                <p class="activ-text-lot-card">Активен</p>
+            </div>
+        </div>
+        <div class="card-lot-stavka-container">
+            <div>
+                <div class="card-display-info">
+                    <p class="text-card-info-lot">Текущая ставка:</p>
+                    <p class="text-card-info-two">883 000₽</p>
+                </div>
+                <div class="card-display-info">
+                    <p class="text-card-info-lot">Ваша ставка:</p>
+                    <p class="text-card-info-two">883 000₽</p>
+                </div>
+            </div>
+           <div>
+            <div class="card-display-info">
+                <p class="text-card-info-lot">Шаг ставки:</p>
+                <p class="text-card-info-two"> 10 000₽</p>
+            </div>
+            <div class="card-display-ifo">
+                <p class="text-card-info-lot">До завершения:</p>
+                <p class="text-card-info-two"> 00:13:14</p>
+            </div>
+           </div>
+        </div>
+        <div class="card-display-info-lot">
+            <button class="btn-card-lot">Сделать ставку</button>
+        </div>
+    </div>
+</div>
+

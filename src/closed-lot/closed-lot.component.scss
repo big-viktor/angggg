@@ -1,0 +1,504 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.container-title-torg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img-title-torg {
+  width: 10px;
+  height: 10px;
+}
+.text-title-torg {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 183.9%;
+  color: #000000;
+}
+.title-text2-torg {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.img-lot-content {
+  display: flex;
+  flex-direction: column;
+}
+.img-lot-glav {
+  max-width: 553px;
+}
+.min-img-lot {
+  width: 93.7px;
+  height: 93.7px;
+  margin-top: 15px;
+}
+.container-min-img-lot {
+  max-width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container-lot-info {
+  display: flex;
+  flex-direction: row;
+}
+.content-download {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.download-img {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #979393;
+  padding: 14px 25px;
+  cursor: pointer;
+}
+.border-download-file {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #979393;
+  cursor: pointer;
+}
+.container-info-lot {
+  max-width: 625px;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  margin-left: 25px;
+  height: 50%;
+}
+.active-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 25px;
+}
+.info-text-title-lot {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 40px;
+}
+.border-active {
+  width: 8px;
+  height: 8px;
+  background: #84bb6a;
+  border-radius: 1000px;
+  margin-right: 10px;
+}
+.info-lot-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.content-ifo-lot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 200px;
+}
+.content-ifo-lot-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.btn-content-lot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.input-lot {
+  width: 189px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.btn-lot {
+  background: #84bb6a;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 12px 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.btn-content-lot {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.btn-lot:hover {
+  border: 1px solid #84ba6c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #84ba6c;
+}
+.text-name-ifo-lot {
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-bottom: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  color: #6b6b6b;
+}
+.text-info-lot {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 183.9%;
+  color: #000000;
+}
+.content-price {
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-radius: 5px 0px 0px 5px;
+  padding-top: 10px;
+  padding-left: 45px;
+  padding-right: 78px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.text-price {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  color: #000000;
+  margin: 0px;
+}
+.price-lot {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #84ba6c;
+  margin: 0px;
+}
+.content-price-stavka {
+  padding-top: 5px;
+  margin-top: 25px;
+  padding-left: 40px;
+  width: 350px;
+  background: #84bb6a;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.name-price-stavka {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0px;
+}
+.price-stavka {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0px;
+}
+.container-dop-ifo {
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.dop-ifo-title {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+.border-dop-ifo {
+  width: 19px;
+  height: 5px;
+  background: #ff3b33;
+}
+.text-dop-info {
+  max-width: 680px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.content-ifo-avto-lot {
+  background: #ffffff;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-bottom: 70px;
+}
+.container-ifo-avto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.content-ifo-avto-text {
+  width: 435px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
+}
+.text-ifo-avto-lot {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6b6b;
+}
+.name-ifo-avto-lot {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #000000;
+}
+.cntent-complet-lot {
+  background: #ffffff;
+  border-radius: 10px;
+  padding-left: 70px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-right: 100px;
+  margin-top: 40px;
+  margin-bottom: 400px;
+}
+.container-colplect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-completct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 437px;
+  border-bottom: 1px solid #ececec;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6b6b;
+  padding-top: 25px;
+}
+.ativ-status {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #84bb6a;
+}
+.text-status {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 183.9%;
+  color: #000000;
+}
+@media (max-width: 1225px) {
+  .container-lot-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1055px) {
+  .container-ifo-avto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .container-colplect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 675px) {
+  .container-dop-ifo {
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  .content-ifo-avto-lot {
+    background: #ffffff;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+  }
+  .btn-lot {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btn-content-lot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .content-price {
+    max-width: 300px;
+    border-top: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 78px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content-ifo-lot-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .content-ifo-lot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 565px) {
+  .content-price {
+    max-width: 300px;
+    border-top: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 78px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-lot-glav {
+    max-width: 100%;
+  }
+  .content-ifo-avto-text {
+    padding-right: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+  }
+  .content-completct {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (max-width: 565px) {
+  .content-price-stavka {
+    margin-top: 25px;
+    padding-left: 40px;
+    width: 100%;
+    height: 57px;
+    background: #84bb6a;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content-price {
+    max-width: 300px;
+    border-top: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 78px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+}

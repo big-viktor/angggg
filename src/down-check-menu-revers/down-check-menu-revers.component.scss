@@ -1,0 +1,39 @@
+.check-menu-container {
+  background: #fafafa;
+  border-radius: 10px 0px 0px 10px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 250px;
+  height: 990px;
+}
+.content-data-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.content-check-dow {
+  margin-bottom: 15px;
+}
+.btn-menu-check {
+  background: #84bb6a;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 1195px) {
+  .check-menu-container {
+    min-width: none;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+}

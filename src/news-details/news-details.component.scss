@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
+.container-news-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-news-details {
+  max-width: 641px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #190706;
+}
+.border-news {
+  width: 19px;
+  height: 5px;
+  background: #ff3b33;
+}
+.news-text-details {
+  max-width: 433px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 128.4%;
+  color: #000000;
+}
+.data-details {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 183.9%;
+  color: #6b6b6b;
+}
+.img-details-container {
+  max-width: 796px;
+}
+.img-details {
+  width: 100%;
+}
+.text-img-details {
+  max-width: 796px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 128.4%;
+  color: #000000;
+}
