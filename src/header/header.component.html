@@ -1,3 +1,13 @@
+
+<div>
+    <div class="exit" [ngClass]="{invisible: visibility}" [ngClass]="{invisibles: visibilitys}" >
+        <div class="exit-content">
+            <div class="container-log">
+                <img class="img-exit"  (click)='onExit()' src="/assets/Vector 99 (1).png" alt="#">
+                <app-log-warning></app-log-warning>
+            </div>
+        </div>
+    </div>
 <div class="header-container">
     <div class="content-logo-header">
         <div>
@@ -7,7 +17,7 @@
             <a  class="text-menu" routerLink="/Lot">Завершенные лоты</a>
             <a class="text-menu" routerLink="/Lot">Переданные лоты</a>
             <a class="text-menu" routerLink="/SmsPage">Сообщения</a>
-            <a class="text-menu" routerLink="/Lot">Мой кабинет</a>
+            <a class="text-menu" routerLink="/Lot">Мой кабинет <i class="arrow down"></i></a>
         </div>
         <div class="content-btn-header">
             <!-- <button class="btn-header-logo">Вход</button>
@@ -17,7 +27,7 @@
     </div>
     <div class="menu-header-content">
         <a routerLink="/CarAuctionsPage" class="text-menu-header">Автоаукционы</a>
-        <a class="text-menu-header">Иные аукционы</a>
+        <a class="text-menu-header" (click)="onSave()" style="cursor: pointer;" >Иные аукционы <i class="arrow down"></i></a>
         <a class="text-menu-header" routerLink="/AnnouncementPage">Объявления</a>
         <a routerLink="/VinCheckPage" class="text-menu-header">Проверка по VIN</a>
         <a class="text-menu-header" routerLink="/NewsPage">Новости</a>

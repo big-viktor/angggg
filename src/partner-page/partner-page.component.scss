@@ -2,6 +2,56 @@
   font-family: Bliss Pro;
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
+.box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container-btn {
+  display: flex;
+  flex-direction: row;
+}
+.container-title-btn-avto {
+  display: flex;
+  flex-direction: column;
+}
+.title-btn-avto {
+  max-width: 482px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 110.69%;
+  color: #494949;
+  text-align: center;
+}
+.btn-avto {
+  margin-left: 25px;
+  border: 1px solid #ff3b33;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 16px 55px;
+  color: #ff3b33;
+  background: none;
+}
+.btn-avto:hover {
+  background: #ff3b33;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding: 16px 55px;
+}
 .container-page-contact {
 }
 .container-page-contact {
@@ -34,12 +84,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #ffffff;
 }
-@media (max-width: 855px) {
-  .menu-info {
+.img-title-box {
+  max-width: 100%;
+}
+@media (max-width: 1195px) {
+  .box-container {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 405px) {
+  .container-btn {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -1,7 +1,13 @@
 <div>
+    <div class="exit" [ngClass]="{invisible: visibility}" [ngClass]="{invisibles: visibilitys}" >
+        <div class="exit-content">
+            <img class="img-exit"  (click)='onExit()' src="/assets/Vector 97.png" alt="#">
+            <app-slider-foto></app-slider-foto>
+        </div>
+    </div>
     <div>
-        <div class="container-title-torg">
-            <img class="img-title-torg" src="/assets/Group (3).png" alt="">
+        <div class="container-title-torg" >
+            <img class="img-title-torg" src="/assets/Group (3).png" alt="#"  >
             <p class="text-title-torg">Открытый торг</p>
         </div>
         <h1 class="title-text2-torg">BMW 5 серии VII (G30/G31) Рестайлинг</h1>
@@ -9,7 +15,7 @@
     <div class="container-lot-info">
         <div class="img-lot-content">
             <div>
-            <img style="cursor: pointer;" class="img-lot-glav" src="/assets/Mask Group (6).png" alt="#" >
+            <img style="cursor: pointer;"  (click)="onSave()"  class="img-lot-glav" src="/assets/Mask Group (6).png" alt="#" >
             <!-- routerLink="/SliderFotoComponent" -->
             </div>
             <div class="container-min-img-lot">
@@ -226,4 +232,4 @@
         </div>
     </div>
 </div>
-<app-slider-foto></app-slider-foto>
+

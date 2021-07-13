@@ -2,6 +2,36 @@
   font-family: Bliss Pro;
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
+.exit {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  z-index: 3000;
+  top: 0;
+  left: 0;
+}
+.img-exit {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+.invisibles {
+  display: none;
+}
+.exit-content {
+  padding-top: 400px;
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
 .container-title-torg {
   display: flex;
   flex-direction: row;

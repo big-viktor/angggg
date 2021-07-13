@@ -92,6 +92,7 @@ import { NewsDetailsComponent } from '../news-details/news-details.component';
 import { AboutCompanyComponent } from '../about-company/about-company.component';
 import { AboutCompanyPageComponent } from '../about-company-page/about-company-page.component';
 import { SliderFotoComponent } from '../slider-foto/slider-foto.component';
+import { LogWarningComponent } from '../log-warning/log-warning.component';
 
 const appRoutes: Routes = [
   { path: '', component: PageContactComponent },
@@ -221,6 +222,7 @@ const appRoutes: Routes = [
     AboutCompanyComponent,
     AboutCompanyPageComponent,
     SliderFotoComponent,
+    LogWarningComponent,
   ],
   imports: [
     BrowserModule,

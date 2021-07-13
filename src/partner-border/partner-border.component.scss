@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
 .container-border {
   display: flex;
   flex-direction: column;
@@ -6,154 +10,90 @@
   padding-top: 30px;
   padding-bottom: 180px;
 }
-.title-border {
+.content-patner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content-patner-border {
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+}
+.title-partner {
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 38px;
-  margin-bottom: 50px;
+
   color: #494949;
 }
-.content-border {
+.content-info-partner {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
 }
-.display-border {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-}
-.border-avto {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 589px;
-  height: 550px;
-  background-image: url("/assets/Rectangle\ 20.png");
+.text-number-partner {
   font-family: Bliss Pro;
   font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
+  font-weight: bold;
+  font-size: 70px;
   line-height: 110.4%;
-  color: #ffffff;
-  padding-left: 35px;
-  padding-right: 20px;
-  margin-right: 20px;
+  color: #c7312e;
+  margin: 0px;
 }
-.name-border {
-  max-width: 300px;
-}
-.border-strax {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 590px;
-  height: 260px;
-  background-image: url("/assets/Rectangle\ 21.png");
+.list-text-partner {
+  margin: 0px;
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 110.4%;
-  color: #d3534a;
-  padding-left: 35px;
-  padding-right: 20px;
+  color: #020202;
+  max-width: 245px;
 }
-.border-wan {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 245px;
-  height: 260px;
-  background-image: url("/assets/Rectangle\ 22.png");
-  font-family: Bliss Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 110.4%;
-  color: #ffffff;
-  padding-left: 35px;
-  padding-right: 20px;
-  border-radius: 10px;
+.img-partner-border {
+  max-width: 100%;
 }
-.border-two {
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 250px;
-  height: 260px;
-  background-image: url("/assets/Rectangle\ 23.png");
-  font-family: Bliss Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 110.4%;
-  color: #ffffff;
-  padding-left: 35px;
-  padding-right: 20px;
-}
-@media (max-width: 1400px) {
-  .content-border {
+@media (max-width: 1180px) {
+  .content-patner-border {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 }
-@media (max-width: 725px) {
-  .display-border {
+@media (max-width: 905px) {
+  .content-patner-border {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+  .content-patner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 605px) {
+  .content-patner-border {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-patner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+  .content-info-partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-  }
-  .border-avto {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 329px;
-    height: 350px;
-    font-size: 25px;
-    line-height: 110.4%;
-    padding-left: 35px;
-    padding-right: 20px;
-    margin-right: 0px;
-  }
-  .border-wan {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 245px;
-    height: 260px;
-    font-size: 26px;
-    line-height: 110.4%;
-    color: #ffffff;
-    padding-left: 35px;
-    padding-right: 20px;
-    border-radius: 10px;
-  }
-  .border-two {
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 250px;
-    height: 260px;
-    background-image: url("/assets/Rectangle\ 23.png");
-    font-size: 28px;
-    line-height: 110.4%;
-    padding-left: 35px;
-    padding-right: 20px;
-  }
-  .border-strax {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 330px;
-    height: 260px;
-    font-size: 20px;
-    line-height: 110.4%;
-    padding-left: 35px;
-    padding-right: 20px;
   }
 }
