@@ -10,7 +10,7 @@
 .container-page-contact {
   display: flex;
   flex-direction: column;
-  max-width: 1920px;
+  max-width: 1940px;
   margin: 0 auto;
 }
 
@@ -50,27 +50,48 @@
   color: #494949;
 }
 .container-img-page-partner {
-  padding-left: 350px;
-  padding-right: 70px;
+  max-width: 1180px;
+  padding-left: 250px;
+  padding-right: 40px;
   padding-bottom: 150px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 .content-ing-partner-page {
   border: 1px solid #ececec;
   box-sizing: border-box;
   border-radius: 5px;
+  margin-right: 7px;
   margin-top: 20px;
   padding: 60px 20px;
 }
-@media (max-width: 855px) {
-  .menu-info {
+@media (max-width: 1220px) {
+  .container-img-page-partner {
+    max-width: 1180px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 150px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 445px) {
+  .container-img-page-partner {
+    max-width: 1180px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
   }
 }
