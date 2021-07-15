@@ -18,7 +18,7 @@
 .content-patner-border {
   display: flex;
   flex-direction: column;
-  width: 1050px;
+  width: 1150px;
 }
 .title-partner {
   font-family: Bliss Pro;
@@ -45,6 +45,10 @@
   color: #c7312e;
   margin: 0px;
 }
+.margin {
+  margin-bottom: 100px;
+  margin-right: 40px;
+}
 .list-text-partner {
   margin: 0px;
   font-family: Bliss Pro;
@@ -54,6 +58,16 @@
   line-height: 110.4%;
   color: #020202;
   max-width: 245px;
+}
+.play-video {
+  padding-top: 120px;
+  padding-left: 80px;
+
+  width: 400px;
+  height: 400px;
+  background-image: url("/assets/Group\ 588.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
 .img-partner-border {
   max-width: 100%;

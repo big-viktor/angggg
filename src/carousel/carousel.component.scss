@@ -1,4 +1,5 @@
 .content-carusel-pg {
+  width: 100%;
   margin-top: 90px;
   display: flex;
   flex-direction: column;
@@ -13,34 +14,30 @@
   color: #494949;
   text-decoration: none;
 }
-// .carousel-cell {
-//
-//   position: absolute;
-//   overflow: hidden;
-// }
-
-.container-carusel {
+.carousel-container {
+  margin-top: 80px;
+  max-width: 1000px;
 }
-// .carousel-cells {
-//   width: 130px;
-//   height: 100%;
-//   overflow: hidden;
-//   position: absolute;
-// }
 .img-carusels {
-  width: 120px;
-  height: 50px;
+  margin-left: 20px;
+  height: 100px;
 }
 
 @media (max-width: 1150px) {
-  .container-carusel {
-    max-width: 700px;
-    height: 100px;
+  .carousel-container {
+    margin-top: 80px;
+    max-width: 750px;
   }
 }
-@media (max-width: 730px) {
-  .container-carusel {
-    max-width: 300px;
-    height: 100px;
+@media (max-width: 915px) {
+  .carousel-container {
+    margin-top: 80px;
+    max-width: 450px;
+  }
+}
+@media (max-width: 515px) {
+  .carousel-container {
+    margin-top: 80px;
+    max-width: 250px;
   }
 }

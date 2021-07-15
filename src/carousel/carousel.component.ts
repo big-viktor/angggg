@@ -8,16 +8,12 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
 })
 export class CarouselComponent implements OnInit {
   value = '';
-  height = 80;
-  width = 750;
-  cellWidth = 150;
-  cellsToShow = 10;
-  // Properties = {
-  //   cellsToShow: 1,
-  //   overflowCellsLimit: 3,
-  //   width: '100px',
-  //   arrows: false,
-  // };
+  height = 120;
+  width = 1100;
+  cellWidth = 120;
+  cellsToScroll = 2;
+  arrowsOutside = true;
+
   constructor() {}
 
   ngOnInit(): void {}

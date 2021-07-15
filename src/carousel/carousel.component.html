@@ -2,8 +2,8 @@
     <div>
         <a routerLink="/PartnerImgPage" class="title-carusel">Наши партнёры</a>
     </div>
-    <div class="carousel-container" id="crus">
-        <carousel [height]="height" [width]="width" [cellsToShow]="cellsToShow" [cellWidth]="cellWidth">  
+    <div class="carousel-container" >
+        <carousel [height]="height"  [cellWidth]="cellWidth" [cellsToScroll]="cellsToScroll" [arrowsOutside]="arrowsOutside" >  
                 <img class="img-carusels" src="/assets/Mask Group (67).png" onMouseout="src='/assets/Mask Group (67).png'" onMouseover="src='/assets/Mask Group (40).png'" alt="#">
                 <img class="img-carusels" src="/assets/Mask Group (68).png" onMouseout="src='/assets/Mask Group (68).png'" onMouseover="src='/assets/Mask Group (41).png'" alt="#">
                 <img class="img-carusels" src="/assets/Mask Group (69).png" onMouseout="src='/assets/Mask Group (69).png'" onMouseover="src='/assets/Mask Group (42).png'" alt="#">
