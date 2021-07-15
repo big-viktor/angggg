@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PartnerComponent implements OnInit {
   currentItem = 'Аукцион по продаже автомобилей';
   foto = '/assets/Frame (4).png';
-  text = 'Автомобили от Банков,Страховых и ЛизинговыхКомпаний';
+  text = 'Автомобили от Банков,Страховых и Лизинговых Компаний';
   price = 'Кол-во: 100';
   currentItem2 = 'Аукцион по продаже автомобильних запчастей';
   foto2 = '/assets/Frame (3).png';
@@ -18,9 +18,9 @@ export class PartnerComponent implements OnInit {
   foto3 = '/assets/Frame.png';
   text3 = 'Имущество от Банков и Лизинговых Компаний';
   price3 = 'Кол-во: 100';
-  currentItem4 = 'Продажа автомобилейот собственника';
+  currentItem4 = 'Продажа автомобилей от собственника';
   foto4 = '/assets/Frame (5).png';
-  text4 = 'Прямая';
+  text4 = 'Прямая продажа';
   price4 = 'Кол-во: 100';
 
   ngOnInit(): void {}
