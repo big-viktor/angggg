@@ -12,10 +12,12 @@
   max-width: 1160px;
   margin: 0 auto;
 }
-.cursor {
-  cursor: pointer;
+.cursors {
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 .footer-text {
+  cursor: pointer;
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: normal;
