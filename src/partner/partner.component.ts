@@ -12,7 +12,7 @@ export class PartnerComponent implements OnInit {
   price = 'Кол-во: 100';
   currentItem2 = 'Аукцион по продаже автомобильних запчастей';
   foto2 = '/assets/Frame (3).png';
-  text2 = 'Новые и БУ запачастилотам и поштучно';
+  text2 = 'Новые и БУ запачасти лотам и поштучно';
   price2 = 'Кол-во: 100';
   currentItem3 = 'Аукцион по продаже имущества';
   foto3 = '/assets/Frame.png';
