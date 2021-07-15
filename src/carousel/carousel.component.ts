@@ -7,9 +7,17 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
   styleUrls: ['./carousel.component.scss'],
 })
 export class CarouselComponent implements OnInit {
-  images = ['/assets/Mask Group (17).png'];
   value = '';
-
+  height = 80;
+  width = 750;
+  cellWidth = 150;
+  cellsToShow = 10;
+  // Properties = {
+  //   cellsToShow: 1,
+  //   overflowCellsLimit: 3,
+  //   width: '100px',
+  //   arrows: false,
+  // };
   constructor() {}
 
   ngOnInit(): void {}

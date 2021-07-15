@@ -95,7 +95,7 @@ import { SliderFotoComponent } from '../slider-foto/slider-foto.component';
 import { LogWarningComponent } from '../log-warning/log-warning.component';
 
 const appRoutes: Routes = [
-  { path: '', component: PageContactComponent },
+  { path: 'MyOffice', component: PageContactComponent },
   { path: 'Lot', component: CardLotPageComponent },
   { path: 'Info', component: InfoSettingPageComponent },
   { path: 'Moderation', component: ModerationPageComponent },
@@ -114,7 +114,7 @@ const appRoutes: Routes = [
   { path: 'VinCheckPage', component: VinCheckPageComponent },
   { path: 'WatchVinPage', component: WatchVinPageComponent },
   { path: 'ReportsPage', component: ReportsPageComponent },
-  { path: 'PartnerPage', component: PartnerPageComponent },
+  { path: '', component: PartnerPageComponent },
   { path: 'PartnerImgPage', component: PartnerImgPageComponent },
   { path: 'LogPage', component: LogPageComponent },
   { path: 'TelLogPage', component: TelLogPageComponent },

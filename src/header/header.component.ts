@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,6 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  @Input() routerCarAuctions = '';
+  @Input() routerOtherAuctions = '';
+  @Input() routerAnnouncements = '';
+  @Input() routerVinCheck = '';
+  @Input() routerNews = '';
+  @Input() routerSoldlots = '';
+  @Input() routerAboutCompany = '';
+  @Input() routerPartners = '';
+  @Input() routerLot = '';
+  @Input() routerTransferLots = '';
+  @Input() routerSmsPage = '';
+  @Input() routerMyOffice = '';
+  @Input() routerCreatingLot = '';
+
   visibility: boolean = false;
   visibilitys: boolean = true;
   onExit() {

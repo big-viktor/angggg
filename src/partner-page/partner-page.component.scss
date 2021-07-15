@@ -2,6 +2,10 @@
   font-family: Bliss Pro;
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/ttf/Roboto-Bold.ttf") format("opentype");
+}
 .box-container {
   display: flex;
   flex-direction: row;
@@ -21,9 +25,10 @@
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
+  margin-left: 5px;
   line-height: 110.69%;
   color: #494949;
-  text-align: center;
+  text-align: left;
 }
 .btn-avto {
   margin-left: 25px;
@@ -52,8 +57,7 @@
   color: #ffffff;
   padding: 16px 55px;
 }
-.container-page-contact {
-}
+
 .container-page-contact {
   display: flex;
   flex-direction: column;
