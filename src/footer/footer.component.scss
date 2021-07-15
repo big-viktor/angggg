@@ -12,6 +12,9 @@
   max-width: 1160px;
   margin: 0 auto;
 }
+.cursor {
+  cursor: pointer;
+}
 .footer-text {
   font-family: Bliss Pro;
   font-style: normal;
@@ -25,6 +28,7 @@
   flex-direction: row;
 }
 .img-footer {
+  cursor: pointer;
   margin-right: 10px;
   max-width: 30px;
   height: 20px;
