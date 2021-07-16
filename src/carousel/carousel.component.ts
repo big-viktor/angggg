@@ -14,7 +14,8 @@ export class CarouselComponent {
   value = '';
   height = 100;
   width = 1100;
-  cellWidth = 127;
+  cellWidth = 178;
+  // cellsToShow = 8;
   cellsToScroll = 2;
   arrowsOutside = true;
   arrows = true;
