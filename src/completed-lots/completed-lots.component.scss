@@ -12,9 +12,14 @@ p {
   max-width: 956px;
   background: #ffffff;
   border-radius: 0px 10px 10px 0px;
-  padding-top: 40px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 .card-name-content {
   display: flex;
@@ -24,6 +29,7 @@ p {
 .card-info-avto-content {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
 }
 .content-card-info {
   display: flex;
@@ -48,7 +54,7 @@ p {
   margin-top: 20px;
 }
 .lot-card-price-content {
-  margin-left: 130px;
+  margin-left: 250px;
 }
 .card-lot-info-avto-content {
   margin-left: 120px;

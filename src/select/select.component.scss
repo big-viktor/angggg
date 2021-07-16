@@ -13,7 +13,7 @@
   padding-right: 35px;
   padding-bottom: 20px;
   padding-top: 40px;
-  width: 100%;
+  width: 97%;
 }
 
 .title-text-select {
@@ -113,11 +113,37 @@ i {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right: 10px;
   }
 }
 @media (max-width: 1090px) {
+  .title-select {
+    margin-left: 20px;
+  }
+
+  .title-text-select {
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-right: 5px;
+  }
+  .content-select {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    mix-blend-mode: multiply;
+    background: #84bb6a;
+    border-radius: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
   .content-select-btn {
     display: flex;
     flex-direction: column;
@@ -140,6 +166,7 @@ i {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
+    margin-right: 10px;
   }
   .select-btn-rever {
     border: none;
@@ -171,9 +198,19 @@ i {
     mix-blend-mode: multiply;
     background: #84bb6a;
     border-radius: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 20px;
-    padding-top: 40px;
+  }
+  .select-btn-rever {
+    border: none;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 16px 0px;
+    width: 100%;
+    margin-left: 0px;
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #45563d;
   }
 }

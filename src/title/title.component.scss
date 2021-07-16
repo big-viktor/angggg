@@ -57,8 +57,8 @@
   .menu-info {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: space-between;
   }
   .conteiner-price {
     display: flex;
@@ -73,10 +73,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-bottom: 30px;
+    padding-left: 20px;
   }
   .conteiner-price {
     display: flex;
-    flex-direction: row;
-    padding-left: 20px;
+    flex-direction: column;
+
+    justify-content: space-around;
+    height: 100px;
   }
 }

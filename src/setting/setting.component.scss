@@ -187,3 +187,18 @@
     max-width: 470px;
   }
 }
+@media (max-width: 375px) {
+  .input-setting-number-from {
+    position: relative;
+  }
+  .input-setting-number-btn {
+    position: absolute;
+    top: 25px;
+    left: 85px;
+    border: 1px solid #84ba6c;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: none;
+    padding: 7px 30px 7px 30px;
+  }
+}

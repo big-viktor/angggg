@@ -98,13 +98,20 @@
 @media (max-width: 1200px) {
   .content-contact {
     background: #ffffff;
-    padding-left: 61px;
+    padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
-    width: 100%;
+    width: 94%;
   }
 }
 @media (max-width: 395px) {
+  .content-input {
+    border-bottom: 1px solid #ececec;
+    padding-top: 25px;
+    margin-right: 0px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
   .maps-contact {
     width: 70%;
     height: 20%;
