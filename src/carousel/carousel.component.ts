@@ -12,9 +12,9 @@ export class CarouselComponent {
 
   onNext() {}
   value = '';
-  height = 100;
+  height = 90;
   width = 1100;
-  cellWidth = 168;
+  cellWidth = 118;
   // cellsToShow = 8;
   cellsToScroll = 2;
   arrowsOutside = true;
