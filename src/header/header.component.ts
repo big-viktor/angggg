@@ -20,6 +20,7 @@ export class HeaderComponent implements OnInit {
   @Input() routerMyOffice = '';
   @Input() routerCreatingLot = '';
 
+  nameOfis = 'Мой кабинет';
   visibility: boolean = false;
   visibilitys: boolean = true;
   onExit() {

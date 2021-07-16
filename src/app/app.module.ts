@@ -72,7 +72,7 @@ import { LotPageComponent } from '../Page/lot-page/lot-page.component';
 import { CarAuctionsComponent } from '../car-auctions/car-auctions.component';
 import { CarAuctionsPageComponent } from '../Page/car-auctions-page/car-auctions-page.component';
 import { ClosedLotComponent } from '../closed-lot/closed-lot.component';
-import { ClosedLotPageComponent } from '../closed-lot-page/closed-lot-page.component';
+import { ClosedLotPageComponent } from '../Page/closed-lot-page/closed-lot-page.component';
 import { CompletedPublicationComponent } from '../completed-publication/completed-publication.component';
 import { CompletedPublicationPageComponent } from '../completed-publication-page/completed-publication-page.component';
 import { DownCheckComponent } from '../down-check/down-check.component';
@@ -96,6 +96,7 @@ import { AboutCompanyPageComponent } from '../Page/about-company-page/about-comp
 import { SliderFotoComponent } from '../slider-foto/slider-foto.component';
 import { LogWarningComponent } from '../log-warning/log-warning.component';
 import { CheckMenuDropComponent } from '../check-menu-drop/check-menu-drop.component';
+import { MenuHeaderComponent } from '../menu-header/menu-header.component';
 
 const appRoutes: Routes = [
   { path: 'MyOffice', component: PageContactComponent },
@@ -227,6 +228,7 @@ const appRoutes: Routes = [
     SliderFotoComponent,
     LogWarningComponent,
     CheckMenuDropComponent,
+    MenuHeaderComponent,
   ],
   imports: [
     BrowserModule,
