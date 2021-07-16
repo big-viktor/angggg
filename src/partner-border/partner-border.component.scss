@@ -2,6 +2,15 @@
   font-family: Bliss Pro;
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
+.invisible {
+  display: none;
+}
+.invisibles {
+  display: none;
+}
+.youtybe {
+  border-radius: 10px;
+}
 .container-border {
   display: flex;
   flex-direction: column;
@@ -60,6 +69,7 @@
   max-width: 245px;
 }
 .play-video {
+  cursor: pointer;
   padding-top: 120px;
   padding-left: 80px;
 

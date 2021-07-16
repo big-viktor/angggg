@@ -19,6 +19,7 @@ export class HeaderComponent implements OnInit {
   @Input() routerSmsPage = '';
   @Input() routerMyOffice = '';
   @Input() routerCreatingLot = '';
+  @Input() active: boolean = true;
 
   nameOfis = 'Мой кабинет';
   list = 'Настройки';
@@ -34,6 +35,7 @@ export class HeaderComponent implements OnInit {
 
   visibility: boolean = false;
   visibilitys: boolean = true;
+
   onExit() {
     this.visibilitys = !this.visibilitys;
   }
@@ -42,5 +44,9 @@ export class HeaderComponent implements OnInit {
   }
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    // if (this.active) {
+    //   alert('sad');
+    // }
+  }
 }

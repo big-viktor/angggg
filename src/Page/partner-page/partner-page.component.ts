@@ -10,6 +10,7 @@ export class PartnerPageComponent implements OnInit {
   routerAboutCompany = '/AboutCompanyPage';
   routerVinCheck = '/VinCheckPage';
   constructor() {}
+  actives = true;
 
   ngOnInit(): void {}
 }

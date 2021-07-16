@@ -84,6 +84,13 @@
   padding-bottom: 4px;
   text-decoration: none;
 }
+.verdanaFont:disabled {
+  font-size: 13px;
+  font-family: Verdana;
+}
+.navyColor {
+  color: navy;
+}
 .text-menu-header:hover {
   padding-bottom: 0px;
   border-bottom: 4px solid #ff3b33;

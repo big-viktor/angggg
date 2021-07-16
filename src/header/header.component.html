@@ -11,13 +11,14 @@
 <div class="header-container">
     <div class="content-logo-header">
         <div>
-            <img class="logo-img-header" style="cursor: pointer;" routerLink="" src="assets/logo.png" alt="#">
+            <img  class="logo-img-header" src="/assets/Asset 1.svg" style="cursor: pointer;" routerLink="" src="assets/logo.png" alt="#">
         </div>
         <div class="conteiner-menu-header">
-            <a  class="text-menu" routerLink="/ClosedLotPage">Завершенные лоты</a>
+            <a class="text-menu" routerLink="/ClosedLotPage">Завершенные лоты</a>
             <a class="text-menu" routerLink="/Lot">Переданные лоты</a>
             <a class="text-menu" routerLink="/SmsPage">Сообщения</a>
-            <app-menu-header  [name]="nameOfis" 
+            <app-menu-header  
+            [name]="nameOfis" 
             [list]="list"
              [list1]="list1"
               [list2]="list2"
@@ -32,7 +33,7 @@
         </div>
         <!-- routerLink="/Lot" -->
         <div class="content-btn-header">
-            <button class="btn-header-logo" routerLink="{{routerCreatingLot}}">Подать обявление</button>
+            <button class="btn-header-logo" routerLink="/CreatingLot">Подать обявление</button>
         </div>
     </div>
     <div class="menu-header-content">

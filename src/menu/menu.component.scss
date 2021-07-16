@@ -6,15 +6,16 @@
 .menu-content {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .btn-menu {
   border: none;
   background: none;
-  padding: 15px 124px 15px 35px;
+  padding: 15px 15px 15px 35px;
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 19px;
   color: #000000;
   text-align: left;
@@ -22,15 +23,8 @@
 }
 
 .btn-menu:hover {
-  border: none;
   background: #ff3b33;
   box-shadow: 0px 4px 4px rgba(176, 184, 210, 0.5);
-  padding: 15px 124px 15px 35px;
-  font-family: Bliss Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
   color: #ffffff;
   text-align: left;
 }
@@ -40,6 +34,7 @@
   background: #fafafa;
   border-radius: 10px 0px 0px 10px;
   height: 100%;
+  width: 270px;
 }
 @media (max-width: 990px) {
   .btn-container {
@@ -48,5 +43,15 @@
     background: #fafafa;
     border-radius: 10px 0px 0px 10px;
     height: 32rem;
+  }
+}
+@media (max-width: 710px) {
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+    width: 100%;
   }
 }

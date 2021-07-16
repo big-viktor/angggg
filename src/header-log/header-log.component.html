@@ -1,7 +1,7 @@
 <div class="header-container">
     <div class="content-logo-header">
         <div>
-            <img class="logo-img-header" style="cursor: pointer;" routerLink="" src="assets/logo.png" alt="#">
+            <img  class="logo-img-header" src="/assets/Asset 1.svg" style="cursor: pointer;" routerLink="" src="assets/logo.png" alt="#">
         </div>
         <div class="content-btn-header">
             <button routerLink="/LogPage" class="btn-header-logo">Вход</button>
@@ -10,13 +10,13 @@
         </div>
     </div>
     <div class="menu-header-content">
-        <a class="text-menu-header">Автоаукционы</a>
-        <a class="text-menu-header" style="cursor: pointer;" >Иные аукционы <i class="arrow down"></i></a>
-        <a class="text-menu-header" >Объявления</a>
+        <a routerLink="/CarAuctionsPage" class="text-menu-header">Автоаукционы</a>
+        <a class="text-menu-header" >Иные аукционы <i class="arrow down"></i></a>
+        <a class="text-menu-header" routerLink="/AnnouncementPage">Объявления</a>
         <a routerLink="/VinCheckPage" class="text-menu-header">Проверка по VIN</a>
-        <a class="text-menu-header" routerLink="/NewsPage">Новости</a>
+        <a disabled class="text-menu-header" routerLink="/NewsPage">Новости</a>
         <a class="text-menu-header">Проданные лоты</a>
         <a class="text-menu-header" routerLink="/AboutCompanyPage">О компании</a>
-        <a class="text-menu-header" routerLink="/PartnerImgPage">Партнеры</a>
+        <a routerLink="/PartnerImgPage" class="text-menu-header">Партнеры</a>
     </div>
 </div>

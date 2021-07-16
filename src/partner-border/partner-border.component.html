@@ -24,8 +24,12 @@
                 </div>
              </div>
             </div>
-           <div class="play-video">
-               <img class="img-partner-border" src="/assets/Group 587 (1).png" alt="">
+           <div class="play-video" [ngClass]="{invisibles: visibilitys}">
+               <img (click)="onPlay()" class="img-partner-border" src="/assets/Group 587 (1).png" alt="">
+           </div>
+           <div [ngClass]="{invisible: visibility}">
+            <iframe class="youtybe" width="400" height="405" src="https://www.youtube.com/embed/tMzr02cPYjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
            </div>
         </div>
     </div>

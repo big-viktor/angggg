@@ -15,8 +15,19 @@ export class HeaderLogComponent implements OnInit {
   @Input() routerAboutCompany = '';
   @Input() routerPartners = '';
   @Input() routerCreatingLot = '';
+  @Input() active: boolean | undefined;
+  isVerdana = true;
+  isNavy = true;
+  disableMessage = true;
 
   constructor() {}
+  currentClasses = {
+    verdanaFont: this.isVerdana,
+    navyColor: this.isNavy,
+  };
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    if (this.active) {
+    }
+  }
 }
