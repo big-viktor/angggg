@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { Routes, RouterModule } from '@angular/router';
 
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SettingComponent } from '../setting/setting.component';
@@ -93,6 +95,7 @@ import { AboutCompanyComponent } from '../about-company/about-company.component'
 import { AboutCompanyPageComponent } from '../about-company-page/about-company-page.component';
 import { SliderFotoComponent } from '../slider-foto/slider-foto.component';
 import { LogWarningComponent } from '../log-warning/log-warning.component';
+import { CheckMenuDropComponent } from '../check-menu-drop/check-menu-drop.component';
 
 const appRoutes: Routes = [
   { path: 'MyOffice', component: PageContactComponent },
@@ -223,12 +226,14 @@ const appRoutes: Routes = [
     AboutCompanyPageComponent,
     SliderFotoComponent,
     LogWarningComponent,
+    CheckMenuDropComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
     IvyCarouselModule,
+    SlickCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -6,6 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./news-page.component.scss'],
 })
 export class NewsPageComponent implements OnInit {
+  routerCarAuctions = '/CarAuctionsPage';
+  routerOtherAuctions = '';
+  routerAnnouncements = '/AnnouncementPage';
+  routerVinCheck = '/VinCheckPage';
+  routerNews = '/NewsPage';
+  routerSoldlots = '';
+  routerAboutCompany = '';
+  routerPartners = '';
+  routerClosedLotPage = '';
+  routerTransferLots = '';
+  routerSmsPage = '';
+  routerMyOffice = '';
+  routerCreatingLot = '';
   src = '/assets/Mask Group (63).png';
   name = 'Audi представила новый кроссовер Q4 e-tron и его купеобразную версию';
   text =

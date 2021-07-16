@@ -11,7 +11,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
+}
+.pading {
+  margin-top: 12.5px;
 }
 .content-check-dow {
   margin-bottom: 15px;

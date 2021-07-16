@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class DownCheckMenuComponent implements OnInit {
   currentName = 'Категория';
   currentText = 'Не выбранно ';
+  currentList = 'ТЕСТ1';
+  currentList1 = 'ТЕСТ2';
+  currentList2 = 'ТЕСТ3';
+  currentList3 = 'ТЕСТ4';
+  currentList4 = 'ТЕСТ5';
   currentName1 = 'Тип ТС';
   currentText1 = 'Не выбранно';
   currentName2 = 'Марка';

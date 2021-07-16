@@ -1,7 +1,14 @@
 <div class="down-check-container">
     <div class="down-check-name">{{name}}</div>
-    <div class="down-check-content">
-        <p class="down-check-text">{{text}}</p>
-        <i class="arrow down"></i>
+    <div class="down-check-content" (click)="onMenu()">
+        <p class="down-check-text" >{{text}}</p>
+        <i class="arrow down" ></i>
+    </div>
+    <div  class="container-list-menu-down" [ngClass]="{invisible: visibility}">
+        <p>{{list}}</p>
+        <p>{{list1}}</p>
+        <p>{{list2}}</p>
+        <p>{{list3}}</p>
+        <p>{{list4}}</p>
     </div>
 </div>

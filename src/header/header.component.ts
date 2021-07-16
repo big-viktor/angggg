@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   @Input() routerSoldlots = '';
   @Input() routerAboutCompany = '';
   @Input() routerPartners = '';
-  @Input() routerLot = '';
+  @Input() routerClosedLotPage = '';
   @Input() routerTransferLots = '';
   @Input() routerSmsPage = '';
   @Input() routerMyOffice = '';

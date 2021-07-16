@@ -8,6 +8,15 @@ import { Component, Input, OnInit } from '@angular/core';
 export class DownCheckComponent implements OnInit {
   @Input() name = '';
   @Input() text = '';
+  @Input() list = '';
+  @Input() list1 = '';
+  @Input() list2 = '';
+  @Input() list3 = '';
+  @Input() list4 = '';
+  visibility: boolean = true;
+  onMenu() {
+    this.visibility = !this.visibility;
+  }
   constructor() {}
 
   ngOnInit(): void {}

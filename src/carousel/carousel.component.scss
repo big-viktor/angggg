@@ -17,12 +17,42 @@
 .carousel-container {
   margin-top: 80px;
   max-width: 1000px;
+  position: relative;
 }
 .img-carusels {
   margin-left: 20px;
-  height: 100px;
+  height: 80px;
 }
-
+.btn-container {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+// .content-carusel {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   max-width: 1150px;
+// }
+// .btn_next {
+//   margin-top: 80px;
+//   margin-right: 20px;
+// }
+// .btn_back {
+//   position: absolute;
+//   margin-top: 60px;
+//   margin-left: 20px;
+// }
+.carousel-arrow {
+  width: 400px;
+  background-color: red;
+}
+.carousel-arrow-next {
+  width: 400px;
+  background-color: red;
+}
 @media (max-width: 1150px) {
   .carousel-container {
     margin-top: 80px;
