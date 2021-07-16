@@ -2,6 +2,60 @@
   font-family: Bliss Pro;
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
+.content-list-down-header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  z-index: 1000;
+}
+.down-check-text {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #190706;
+  text-decoration: none;
+  cursor: pointer;
+}
+.list-text {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #190706;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+.list-text:hover {
+  color: #ff3b33;
+}
+.container-list-header {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin-top: 70px;
+  position: absolute;
+  border: 1px solid #c4c4c4;
+  background-color: #ffffff;
+  width: 99%;
+  border-radius: 0px 0px 5px 5px;
+  border-top: none;
+  overflow-y: scroll;
+}
+.overflow {
+  min-height: 400px;
+}
+.container-list-header::-webkit-scrollbar {
+  width: 7px;
+  background-color: #f9f9fd;
+}
+.container-list-header::-webkit-scrollbar-thumb {
+  background-color: #223c50;
+}
 .container-down-header {
   cursor: pointer;
   display: flex;
@@ -27,4 +81,7 @@ i {
   .down {
     transform: rotate(-135deg);
   }
+}
+.invisible {
+  display: none;
 }

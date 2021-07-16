@@ -7,7 +7,21 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class MenuHeaderComponent implements OnInit {
   @Input() name = '';
-  constructor() {}
+  @Input() list = '';
+  @Input() list1 = '';
+  @Input() list2 = '';
+  @Input() list3 = '';
+  @Input() list4 = '';
+  @Input() list5 = '';
+  @Input() list6 = '';
+  @Input() list7 = '';
+  @Input() list8 = '';
+  @Input() list9 = '';
 
+  constructor() {}
+  visibility: boolean = true;
+  onMenu() {
+    this.visibility = !this.visibility;
+  }
   ngOnInit(): void {}
 }

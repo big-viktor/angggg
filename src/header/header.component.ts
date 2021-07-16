@@ -21,6 +21,17 @@ export class HeaderComponent implements OnInit {
   @Input() routerCreatingLot = '';
 
   nameOfis = 'Мой кабинет';
+  list = 'Настройки';
+  list1 = 'Связь с администрацией';
+  list2 = 'Мои лоты';
+  list3 = 'Лоты на модерации';
+  list4 = 'Избранные лоты';
+  list5 = 'Мои завершенные лоты';
+  list6 = 'Мои объявления';
+  list7 = 'Архив лотов';
+  list8 = 'Мой тариф';
+  list9 = 'История оплат';
+
   visibility: boolean = false;
   visibilitys: boolean = true;
   onExit() {
