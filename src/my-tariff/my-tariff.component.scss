@@ -167,12 +167,29 @@ p {
   .container-my-tariff {
     width: 100%;
   }
+  .container-my-tariff {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    max-width: 890px;
+    padding: 0px 15px 50px 15px;
+  }
 }
 @media (max-width: 945px) {
   .container-price-list-tariff {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 505px) {
+  .content-title-name-tarif-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 445px) {
