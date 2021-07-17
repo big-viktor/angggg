@@ -103,6 +103,17 @@
   }
 }
 @media (max-width: 605px) {
+  .play-video {
+    cursor: pointer;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height: 400px;
+    background-image: url("/assets/Group\ 588.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
   .content-patner-border {
     display: flex;
     flex-direction: column;

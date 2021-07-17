@@ -161,6 +161,13 @@ p {
   }
 }
 @media (max-width: 935px) {
+  .text-card-info-title-two {
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+  }
   .content-card {
     display: flex;
     flex-direction: column;

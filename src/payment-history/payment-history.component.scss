@@ -94,11 +94,11 @@
   text-align: center;
   color: #ffffff;
 }
-@media (max-width: 1018px) {
+@media (max-width: 828px) {
   .content-histori-price {
     max-width: 831px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
   }
@@ -108,18 +108,21 @@
     border-top: none;
     padding: 20px 0px 20px 5px;
     margin: 0px;
+    width: 100%;
   }
   .play-histori-list {
     border: 1px solid rgba(176, 184, 210, 0.5);
     border-top: none;
     padding: 20px 0px 20px 5px;
     margin: 0px;
+    width: 100%;
   }
   .price-histori-list {
     border: 1px solid rgba(176, 184, 210, 0.5);
     border-top: none;
     padding: 20px 0px 20px 5px;
     margin: 0px;
+    width: 100%;
   }
   .none-histori-list {
     border: 1px solid rgba(176, 184, 210, 0.5);
@@ -133,8 +136,9 @@
   .container-histori {
     background: #ffffff;
     border-radius: 0px 10px 10px 0px;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-top: 20px;
-    padding-right: 0px;
+    padding-right: 10px;
+    max-width: 620px;
   }
 }
