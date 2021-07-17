@@ -96,6 +96,11 @@
   border-bottom: 4px solid #ff3b33;
 }
 @media (max-width: 1052px) {
+  .logo-img-header {
+    width: 190px;
+    height: 60px;
+    margin-left: 20px;
+  }
   .content-logo-header {
     max-width: 1180px;
     margin: 0 auto;
@@ -163,5 +168,20 @@
     color: #190706;
     margin-right: 10px;
     padding-bottom: 4px;
+  }
+  .btn-header-logo {
+    background: #ffffff;
+    border: 1px solid #6b6b6b;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Bliss Pro;
+    font-style: normal;
+    height: 60px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
 }
