@@ -104,7 +104,22 @@ i {
   border-radius: 5px;
   font-family: Bliss Pro;
   font-style: normal;
+  font-weight: bold;
+
   font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  margin-left: 10px;
+}
+.btn-header-logo::-moz-hover {
+  background: #84bb6a;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-size: 15.5px;
   line-height: 19px;
   text-align: center;
   padding: 10px 30px 10px 30px;
@@ -114,11 +129,8 @@ i {
   background: #84bb6a;
   border: 1px solid #6b6b6b;
   box-sizing: border-box;
-  border-radius: 5px;
-  font-family: Bliss Pro;
-  font-style: normal;
   font-weight: bold;
-  font-size: 15.5px;
+  font-size: 16px;
   line-height: 19px;
   text-align: center;
   color: #ffffff;
@@ -230,13 +242,14 @@ i {
   }
 }
 @media (max-width: 325px) {
-  // .conteiner-menu-header {
-  //   display: flex;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  //   height: 300px;
-  //   padding-left: 20px;
-  //   border-left: 1px solid #c4c4c4;
-  //   border-right: 1px solid #c4c4c4;
-  // }
+  .conteiner-menu-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 300px;
+    padding-left: 20px;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+  }
 }

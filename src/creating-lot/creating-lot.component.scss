@@ -5,13 +5,13 @@
 .container-creating-lot {
   max-width: 835px;
   background: #ffffff;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 0px 0px;
   margin-right: 20px;
   padding-right: 300px;
   padding-left: 30px;
-
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 .creating-lot-title {
   font-family: Bliss Pro;
@@ -89,11 +89,7 @@
   line-height: 17px;
   color: #6b6b6b;
 }
-.setting-input-creating-lot {
-  border: 1px solid #c4c4c4;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
+
 .position {
   position: relative;
 }
@@ -114,15 +110,30 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-.setting-input-creating-lot::placeholder {
-  padding-left: 135px;
+.setting-input-creating-lot {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-right: 13px;
+  padding-top: 10px;
+}
+.setting-input-creating-lot::-webkit-input-placeholder {
   color: #000000;
   font-family: Bliss Pro;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  text-align: center;
+  text-align: right;
+}
+.setting-input-creating-lot::-moz-placeholder {
+  color: #000000;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
 }
 .setting-input-creating-lot:hover {
   border: 1px solid #ff3b33;
@@ -134,7 +145,28 @@ i {
   box-sizing: border-box;
   border-radius: 5px;
 }
-
+.border-div-creating {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 888px;
+  border-top: 1px solid #c4c4c4;
+  background: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+  padding-left: 20px;
+}
+.next-creating-lot {
+  background: none;
+  border: 1px solid #84ba6c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #84ba6c;
+  padding: 10px 45px;
+}
 @media (max-width: 645px) {
   .content-btn-creating-lot {
     display: flex;
@@ -149,10 +181,25 @@ i {
   .container-creating-lot {
     max-width: 835px;
     background: #ffffff;
-    border-radius: 0px 10px 10px 0px;
-    margin-right: 20px;
-    padding-right: 0px;
+    border-radius: 0px 10px 0px 0px;
+    margin-right: 0px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
+  }
+}
+@media (max-width: 330px) {
+  .setting-content-crating-lot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .btn-i-input {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 9px;
+    top: 46px;
   }
 }

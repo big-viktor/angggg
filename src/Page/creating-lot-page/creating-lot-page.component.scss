@@ -55,6 +55,15 @@
   margin-top: 40px;
   background: #e5e5e5;
 }
+.title-creating-lot {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  margin-top: 33px;
+}
 @media (max-width: 470px) {
   .menu-seting-content {
     display: flex;
@@ -166,25 +175,6 @@
   }
 }
 
-.border-div-creating {
-  margin-top: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border-top: 1px solid #c4c4c4;
-}
-.next-creating-lot {
-  background: none;
-  border: 1px solid #84ba6c;
-  box-sizing: border-box;
-  border-radius: 5px;
-  font-family: Bliss Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #84ba6c;
-  padding: 10px 45px;
-}
 @media (max-width: 1045px) {
   .container-contact {
     display: flex;

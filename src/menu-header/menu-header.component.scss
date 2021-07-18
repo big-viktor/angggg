@@ -28,12 +28,12 @@
   color: #190706;
   text-decoration: none;
   cursor: pointer;
-  text-align: center;
 }
 .list-text:hover {
   color: #ff3b33;
 }
 .container-list-header {
+  padding-left: 2px;
   display: flex;
   flex-direction: column;
   height: 200px;
@@ -45,6 +45,7 @@
   border-radius: 0px 0px 5px 5px;
   border-top: none;
   overflow-y: scroll;
+  align-items: flex-start;
 }
 .overflow {
   min-height: 400px;
