@@ -88,3 +88,8 @@
     flex-direction: column;
   }
 }
+@media (max-width: 380px) {
+  .content-page-contact {
+    margin: 0;
+  }
+}

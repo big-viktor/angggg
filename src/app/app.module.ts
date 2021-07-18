@@ -78,7 +78,7 @@ import { CompletedPublicationPageComponent } from '../Page/completed-publication
 import { DownCheckComponent } from '../down-check/down-check.component';
 import { DownCheckMenuComponent } from '../down-check-menu/down-check-menu.component';
 import { SortComponent } from '../sort/sort.component';
-import { NewLotComponent } from '../Page/new-lot/new-lot.component';
+import { NewLotComponent } from '../new-lot/new-lot.component';
 import { NewLotClosedComponent } from '../new-lot-closed/new-lot-closed.component';
 import { CarAuctionsPageReversComponent } from '../Page/car-auctions-page-revers/car-auctions-page-revers.component';
 import { NewLotReversComponent } from '../new-lot-revers/new-lot-revers.component';

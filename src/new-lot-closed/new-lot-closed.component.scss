@@ -186,6 +186,11 @@ p {
   }
 }
 @media (max-width: 810px) {
+  .card-info-avto-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+  }
   .content-card {
     margin-top: 20px;
     display: flex;
@@ -232,5 +237,14 @@ p {
     width: 165px;
     height: 165px;
     margin-left: 10px;
+  }
+}
+@media (max-width: 372px) {
+  .text-card-info-title-two {
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
   }
 }

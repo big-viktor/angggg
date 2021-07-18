@@ -244,3 +244,13 @@
     align-items: center;
   }
 }
+@media (max-width: 420px) {
+  .title-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+  }
+}

@@ -148,9 +148,16 @@
   }
 }
 @media (max-width: 545px) {
+  .header-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
   .content-btn-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
   .menu-header-content {

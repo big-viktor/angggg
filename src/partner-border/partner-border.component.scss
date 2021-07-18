@@ -103,6 +103,9 @@
   }
 }
 @media (max-width: 605px) {
+  .top {
+    margin-top: 40px;
+  }
   .youtybe {
     border-radius: 10px;
     margin-top: 70px;
@@ -137,5 +140,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  .text-number-partner {
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 110.4%;
+    color: #c7312e;
+    margin: 0px;
+  }
+  .margin {
+    margin-bottom: 100px;
+    margin-right: 0px;
   }
 }

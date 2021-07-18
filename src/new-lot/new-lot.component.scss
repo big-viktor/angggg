@@ -212,3 +212,12 @@ p {
     margin-left: 10px;
   }
 }
+@media (max-width: 330px) {
+  .text-card-info-title-two {
+    font-family: Bliss Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
