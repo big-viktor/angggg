@@ -40,6 +40,16 @@
   .menu-info {
     display: flex;
     flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .menu-info {
+    display: flex;
+    flex-direction: row;
+
     justify-content: flex-start;
     align-items: center;
   }
