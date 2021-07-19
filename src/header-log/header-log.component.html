@@ -3,7 +3,10 @@
         <div>
             <img  class="logo-img-header" src="/assets/Asset 1.svg" style="cursor: pointer;" routerLink=""  alt="#">
         </div>
-        <div class="content-btn-header">
+        <div class="burger" >
+            <img class="burger-btn" src="/assets/burger-menu-icon-4.jpg" alt="#" (click)="onSave()">
+        </div>
+        <div class="content-btn-header " [ngClass]="{invisible: visibility}" >
             <button routerLink="/LogPage" class="btn-header-logo">Вход</button>
             <button class="btn-header-logo" routerLink="/LogPage">Регистрация</button>
             <button class="btn-header-logo" routerLink="/CreatingLot" >Подать обявление</button>

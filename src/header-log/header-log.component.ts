@@ -25,9 +25,12 @@ export class HeaderLogComponent implements OnInit {
     verdanaFont: this.isVerdana,
     navyColor: this.isNavy,
   };
+  visibility: boolean = false;
+  visibilitys: boolean = false;
+  Burger: boolean = false;
 
-  ngOnInit(): void {
-    if (this.active) {
-    }
+  onSave() {
+    this.visibility = !this.visibility;
   }
+  ngOnInit(): void {}
 }
