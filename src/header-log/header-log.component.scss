@@ -12,14 +12,7 @@
   width: 190px;
   height: 60px;
 }
-.content-logo-header {
-  max-width: 1180px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
+
 .conteiner-menu-header {
   display: flex;
   flex-direction: row;
@@ -44,12 +37,22 @@
   display: flex;
   flex-direction: row;
 }
+.content-logo-header {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
 .btn-header-logo {
+  height: 67px;
   background: #ffffff;
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 5px;
   font-family: Bliss Pro;
+  font-weight: bold;
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
