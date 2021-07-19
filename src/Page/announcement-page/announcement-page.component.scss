@@ -17,6 +17,7 @@
 .container-content {
   display: flex;
   flex-direction: row;
+  margin-left: 5px;
 }
 .conteiner-sort {
   background: #f1f1f1;
@@ -47,7 +48,8 @@
   align-items: flex-end;
   justify-content: space-between;
   margin-top: 40px;
-  margin-left: 10px;
+  padding-left: 15px;
+  padding-right: 5px;
   margin-bottom: 40px;
 }
 .delet-title {
