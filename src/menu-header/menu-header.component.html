@@ -1,10 +1,10 @@
 <div class="content-list-down-header">
-<div class="container-down-header" (click)="onMenu()">
-    <p class="down-check-text">{{name}}</p>
-    <i class="arrow down" ></i>
+<div class="container-down-header">
+    <p class="down-check-text" routerLink={{router}}>{{name}}</p>
+    <i class="arrow down" (click)="onMenu()" ></i>
 </div>
-<div class="container-list-header" [ngClass]="{invisible: visibility}">
-    <p class="list-text" routerLink="/Info">{{list}}</p>
+<div class="container-list-header " [ngClass]="{invisible: visibility}">
+    <p class="list-text" routerLink={{router}}>{{list}}</p>
     <p class="list-text"  routerLink="/MyOffice">{{list1}}</p>
     <p class="list-text" routerLink="/Lot">{{list2}}</p>
     <p class="list-text" routerLink="/Moderation">{{list3}}</p>
@@ -14,6 +14,5 @@
     <p class="list-text" routerLink="/LotArchive">{{list7}}</p>
     <p class="list-text" routerLink="/MyTariff">{{list8}}</p>
     <p class="list-text"  routerLink="/PaymentHistory">{{list9}}</p>
-
 </div>
 </div>

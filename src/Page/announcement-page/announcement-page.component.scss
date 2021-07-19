@@ -37,14 +37,16 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 43px;
-
+  margin-bottom: 0px;
   color: #000000;
 }
 .title-page {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-left: 10px;
   margin-bottom: 40px;
 }
 .delet-title {

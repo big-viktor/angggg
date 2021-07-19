@@ -21,6 +21,7 @@ export class HeaderComponent implements OnInit {
   @Input() routerCreatingLot = '';
   @Input() active: boolean = true;
 
+  routerInfo = '/Info';
   nameOfis = 'Мой кабинет';
   list = 'Настройки';
   list1 = 'Связь с администрацией';

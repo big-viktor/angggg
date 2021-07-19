@@ -19,6 +19,7 @@
   text-decoration: none;
   cursor: pointer;
 }
+
 .list-text {
   font-family: Bliss Pro;
   font-style: normal;
@@ -78,11 +79,13 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+.invisible {
+  display: none;
+}
+
 .container-down-header:hover {
   .down {
     transform: rotate(-135deg);
   }
-}
-.invisible {
-  display: none;
 }

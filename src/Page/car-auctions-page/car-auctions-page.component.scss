@@ -36,13 +36,15 @@
   font-size: 36px;
   line-height: 43px;
   color: #000000;
+  margin-bottom: 0px;
 }
 .title-page {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-left: 10px;
   margin-bottom: 40px;
 }
 .delet-title {

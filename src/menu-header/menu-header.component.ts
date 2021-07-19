@@ -17,7 +17,7 @@ export class MenuHeaderComponent implements OnInit {
   @Input() list7 = '';
   @Input() list8 = '';
   @Input() list9 = '';
-
+  @Input() router = '';
   constructor() {}
   visibility: boolean = true;
   onMenu() {
