@@ -18,6 +18,8 @@
   color: #190706;
   text-decoration: none;
   cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .list-text {
@@ -38,7 +40,7 @@
   display: flex;
   flex-direction: column;
   height: 200px;
-  margin-top: 70px;
+  margin-top: 60px;
   position: absolute;
   border: 1px solid #c4c4c4;
   background-color: #ffffff;
@@ -69,7 +71,7 @@
 }
 i {
   margin-left: 5px;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
