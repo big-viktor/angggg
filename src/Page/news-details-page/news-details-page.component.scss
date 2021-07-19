@@ -45,13 +45,11 @@
   border-radius: 4px;
 }
 .conyainer-title-report {
-  width: 100%;
-
-  margin: 0 auto;
+  width: 65%;
 }
 .content-title {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
 }
