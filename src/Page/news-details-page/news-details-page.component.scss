@@ -45,11 +45,25 @@
   border-radius: 4px;
 }
 .conyainer-title-report {
-  width: 65%;
+  width: 1245px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media (max-width: 1280px) {
+  .conyainer-title-report {
+    width: 100%;
+    padding-left: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 .content-title {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: center;
 }

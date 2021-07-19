@@ -3,7 +3,7 @@
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
 .container-sms {
-  max-width: 1200px;
+  width: 100%;
   border-radius: 0px 10px 10px 0px;
 }
 .container-placeholder-sms {
@@ -15,15 +15,16 @@
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
+  margin-top: 15px;
+  margin-bottom: 60px;
   line-height: 43px;
   color: #000000;
-  margin-bottom: 25px;
 }
 .container-text-sms {
   max-width: 951px;
   background: #ffffff;
   border-radius: 10px 0px 0px 10px;
-  padding: 35px 350px 35px 45px;
+  padding: 35px 540px 35px 45px;
 }
 .text-name-sms {
   font-family: Bliss Pro;

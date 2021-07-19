@@ -43,7 +43,23 @@
   border-radius: 4px;
 }
 .conyainer-title-report {
-  width: 67%;
+  width: 1245px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media (max-width: 1260px) {
+  .conyainer-title-report {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 .content-title {
   display: flex;

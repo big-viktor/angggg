@@ -48,6 +48,7 @@
 .container-lot-info {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .content-download {
   padding-top: 40px;
@@ -282,7 +283,6 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
-
   color: #000000;
 }
 .content-ifo-avto-lot {

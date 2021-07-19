@@ -24,7 +24,19 @@
   width: 100%;
 }
 .content-page-contact {
+  padding-top: 40px;
+  width: 1255px;
   margin: 0 auto;
+}
+@media (max-width: 1285px) {
+  .content-page-contact {
+    padding-top: 40px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title-page-name {
+    margin-left: 10px;
+  }
 }
 .menu-content-page-contact {
   display: flex;

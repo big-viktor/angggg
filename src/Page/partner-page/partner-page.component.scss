@@ -102,6 +102,9 @@
 }
 
 @media (max-width: 405px) {
+  .btn-avto {
+    margin-top: 10px;
+  }
   .container-btn {
     display: flex;
     flex-direction: column;
