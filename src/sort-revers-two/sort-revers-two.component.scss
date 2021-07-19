@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 30px;
-  padding-right: 20px;
+  padding-right: 5px;
 }
 .input-sort-revers-two {
   width: 173px;
@@ -23,8 +23,7 @@
   margin-left: 40px;
   display: flex;
   flex-direction: row;
-
-  align-items: center;
+  align-items: flex-end;
 }
 .title-sort {
   font-family: Bliss Pro;
@@ -40,7 +39,14 @@
 }
 .img-sort {
   width: 40px;
-  height: 38px;
+  height: 38.5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.img-sort-two {
+  width: 40px;
+  height: 38.5px;
+  margin-bottom: 4px;
   margin-left: 15px;
 }
 .display-colum {
