@@ -5,13 +5,12 @@
 .container-creating-lot {
   background: #ffffff;
   border-radius: 10px 10px 0px 0px;
-  padding-left: 30px;
   margin-right: 25px;
-  padding-right: 30px;
   display: flex;
   flex-direction: column;
   padding-bottom: 40px;
   padding-top: 30px;
+  width: 900px;
 }
 
 .title-border-tip {
@@ -25,17 +24,25 @@
   line-height: 29px;
   color: #000000;
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 .border-title {
   width: 19px;
   height: 5px;
   background: #ff3b33;
   margin-bottom: 35px;
+  margin-left: 30px;
 }
 .content-photo-list {
   display: flex;
   flex-direction: row;
   padding-right: 400px;
+  margin-left: 30px;
+}
+@media (max-width: 1170px) {
+  .container-creating-lot {
+    width: 100%;
+  }
 }
 .content-add-photo {
   display: flex;
@@ -55,6 +62,8 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
+  margin-left: 30px;
+
   color: #000000;
 }
 .container-img-photo {

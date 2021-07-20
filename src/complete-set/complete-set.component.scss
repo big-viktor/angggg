@@ -6,13 +6,16 @@
   background: #ffffff;
   border-radius: 10px 0px 0px 10px;
   margin-right: 20px;
-  padding-right: 95px;
-  padding-left: 30px;
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  width: 905px;
 }
-
+@media (max-width: 1135px) {
+  .container-creating-lot {
+    width: 100%;
+  }
+}
 .title-lot-info {
   font-family: Bliss Pro;
   font-style: normal;
@@ -21,8 +24,10 @@
   line-height: 29px;
   color: #000000;
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 .border-title {
+  margin-left: 30px;
   width: 19px;
   height: 5px;
   background: #ff3b33;
@@ -56,6 +61,7 @@
 .content-btn-creating-lot {
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 .btn-complete-log:hover {
   border: 1px solid #84bb6a;
@@ -66,6 +72,7 @@
 
 .container-setting-creating-lot {
   max-width: 380px;
+  margin-left: 30px;
 }
 .setting-content-crating-lot {
   display: flex;
@@ -161,6 +168,7 @@ i {
   flex-direction: row;
   justify-content: space-between;
   max-width: 480px;
+  margin-left: 30px;
 }
 .width {
   width: 184px;

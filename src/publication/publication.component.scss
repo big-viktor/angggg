@@ -10,7 +10,12 @@
   margin-right: 25px;
   display: flex;
   flex-direction: column;
-  width: 870px;
+  width: 900px;
+}
+@media (max-width: 1200px) {
+  .container-creating-lot {
+    width: 95%;
+  }
 }
 .creating-lot-title {
   font-family: Bliss Pro;
@@ -32,18 +37,19 @@
   line-height: 29px;
   color: #000000;
   margin-bottom: 10px;
+  margin-left: 30px;
+}
+.btn-publication-container {
+  margin-left: 30px;
 }
 .border-title {
   width: 19px;
   height: 5px;
   background: #ff3b33;
   margin-bottom: 35px;
+  margin-left: 30px;
 }
-.content-photo-list {
-  display: flex;
-  flex-direction: row;
-  padding-right: 400px;
-}
+
 .content-add-photo {
   display: flex;
   flex-direction: column;
@@ -67,6 +73,7 @@
   padding-bottom: 40px;
   margin-bottom: 40px;
   border-bottom: 1px solid #c4c4c4;
+  margin-left: 30px;
 }
 .container-img-photo {
   width: 131px;

@@ -5,12 +5,11 @@
 .container-creating-lot {
   background: #ffffff;
   border-radius: 10px 0px 0px 10px;
-  margin-right: 20px;
-  padding-left: 30px;
-  padding-right: 180px;
+  margin-right: 25px;
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  width: 900px;
 }
 
 .title-lot-info {
@@ -21,12 +20,14 @@
   line-height: 29px;
   color: #000000;
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 .border-title {
   width: 19px;
   height: 5px;
   background: #ff3b33;
   margin-bottom: 35px;
+  margin-left: 30px;
 }
 .content-btn-creating-lot {
   display: flex;
@@ -48,6 +49,7 @@
 .container-checkbox-complete {
   display: flex;
   flex-direction: row;
+  margin-left: 30px;
 }
 .check-bokc-creating {
   display: flex;
@@ -136,6 +138,8 @@ i {
 }
 .content-damage-list {
   display: flex;
+  margin-left: 30px;
+
   flex-direction: row;
 }
 .damage-container {
