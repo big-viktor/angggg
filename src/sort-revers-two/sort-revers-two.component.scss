@@ -1,9 +1,14 @@
+@font-face {
+  font-family: Bliss Pro;
+  src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
+}
 .container-sort {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding-top: 30px;
+  padding-bottom: 1px;
   padding-right: 5px;
 }
 .input-sort-revers-two {

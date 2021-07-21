@@ -6,10 +6,54 @@
       <app-title></app-title>
         <div class="menu-content-page-contact">
           <div class="container-menu">
-            <app-menu></app-menu>
+            <app-menu [isActiveModer]="PageActiveModer"></app-menu>
           </div>
           <div  class="container-contact">
-            <app-moderation></app-moderation>
+            <app-card-lot 
+            [src]='srcImg'
+            [numLot]="numLot" 
+            [nameLot]="nameLot" 
+            [data]="data" 
+            [city]="city" 
+            [ofLOt]="ofLOt"
+            [lotActivOn]="lotActivOn"
+            [lotActivOf]="lotActivOf"
+            [price]="price"
+            [endDate]="endDate"
+            [box]="box"
+            [engine]="engine"
+            [run]="run"
+            [lotActive]="lotActive"
+            [bidStep]="bidStep"
+            [timeLot]="timeLot"
+            [moderationOn]="OnModeration"
+            [moderationOf]="Ofmoderation"
+            [exetOn]="exetOn"
+
+            
+            ></app-card-lot>
+            <app-card-lot 
+            [src]='srcImg1'
+            [numLot]="numLot1" 
+            [nameLot]="nameLot1" 
+            [data]="data1" 
+            [city]="city1" 
+            [ofLOt]="ofLOt1"
+            [lotActivOn]="lotActivOn1"
+            [lotActivOf]="lotActivOf1"
+            [price]="price1"
+            [endDate]="endDate1"
+            [box]="box1"
+            [engine]="engine1"
+            [run]="run1"
+            [lotActive]="lotActive1"
+            [bidStep]="bidStep1"
+            [timeLot]="timeLot1"
+            [moderationOn]="OnModeration1"
+            [moderationOf]="Ofmoderation1"
+            [exetOn]="exetOn"
+
+            ></app-card-lot>
           </div>
         </div>
       </div>

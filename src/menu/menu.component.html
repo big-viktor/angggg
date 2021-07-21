@@ -1,15 +1,15 @@
 <div class="menu-content">
     <div class="btn-container">
-        <a class="btn-menu" routerLink="/Info">Настройки</a>
-        <a  class="btn-menu" routerLink="/MyOffice">Связь с администрацией</a>
-        <a  class="btn-menu" routerLink="/Lot">Мои лоты</a>
-        <a  class="btn-menu" routerLink="/Moderation">Лоты на модерации</a>
-        <a  class="btn-menu" routerLink="/SelectedLot">Избранные лоты</a>
-        <a  class="btn-menu" routerLink="/CompletedLot">Мои завершенные лоты</a>
-        <a  class="btn-menu" routerLink="/MyAdsLot">Мои объявления</a>
-        <a  class="btn-menu" routerLink="/LotArchive">Архив лотов</a>
-        <a  class="btn-menu" routerLink="/MyTariff">Мой тариф</a>
-        <a  class="btn-menu" routerLink="/PaymentHistory">История оплат</a>
+        <a [class.activePage]="isActiveInf" class="btn-menu" routerLink="/Info">Настройки</a>
+        <a [class.activePage]="isActiveMyOfis"  class="btn-menu" routerLink="/MyOffice">Связь с администрацией</a>
+        <a [class.activePage]="isActiveLot"  class="btn-menu" routerLink="/Lot">Мои лоты</a>
+        <a [class.activePage]="isActiveModer"  class="btn-menu" routerLink="/Moderation">Лоты на модерации</a>
+        <a [class.activePage]="isActiveSelected"  class="btn-menu" routerLink="/SelectedLot">Избранные лоты</a>
+        <a [class.activePage]="isActiveCompleted"  class="btn-menu" routerLink="/CompletedLot">Мои завершенные лоты</a>
+        <a [class.activePage]="isActiveMyAds"  class="btn-menu" routerLink="/MyAdsLot">Мои объявления</a>
+        <a [class.activePage]="isActiveLotArch"  class="btn-menu" routerLink="/LotArchive">Архив лотов</a>
+        <a [class.activePage]="isActiveMyTarrif"  class="btn-menu" routerLink="/MyTariff">Мой тариф</a>
+        <a [class.activePage]="isActivePayment"  class="btn-menu" routerLink="/PaymentHistory">История оплат</a>
     </div>
     <div>
         <nav>

@@ -20,7 +20,7 @@ export class PageContactComponent implements OnInit {
   routerSmsPage = '/SmsPage';
   routerMyOffice = '/MyOffice';
   routerCreatingLot = '';
-
+  PageActiveMyOfis = true;
   constructor() {}
 
   ngOnInit(): void {}

@@ -16,6 +16,8 @@ export class SortComponent implements OnInit {
   currentText2 = 'По дате завершения';
   currentText3 = 'Поиск № лота';
   currentText4 = 'Показать по 20';
+  upDown = false;
+
   constructor() {}
 
   ngOnInit(): void {}

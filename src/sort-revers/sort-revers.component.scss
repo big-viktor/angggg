@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding-top: 30px;
   padding-right: 20px;
 }
@@ -10,13 +11,7 @@
   display: flex;
   flex-direction: row;
 }
-.content-sort-two {
-  margin-left: 40px;
-  display: flex;
-  flex-direction: row;
 
-  align-items: center;
-}
 .title-sort {
   font-family: Bliss Pro;
   font-style: normal;
@@ -29,10 +24,22 @@
   min-width: 170px;
   margin-left: 10px;
 }
+.content-sort-two {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
 .img-sort {
-  width: 40px;
+  width: 39px;
   height: 38px;
   margin-left: 15px;
+}
+.img-sort-two {
+  width: 40px;
+  height: 37px;
+  margin-left: 15px;
+  margin-top: 4px;
 }
 .display-colum {
   display: flex;

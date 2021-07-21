@@ -6,19 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./payment-history-page.component.scss'],
 })
 export class PaymentHistoryPageComponent implements OnInit {
-  routerCarAuctions = '/CarAuctionsPage';
-  routerOtherAuctions = '';
-  routerAnnouncements = '/AnnouncementPage';
-  routerVinCheck = '/VinCheckPage';
-  routerNews = '/NewsPage';
-  routerSoldlots = '';
-  routerAboutCompany = '/AboutCompanyPage';
-  routerPartners = '';
-  routerClosedLotPage = '/CompletedPublicationPage';
-  routerTransferLots = '';
-  routerSmsPage = '/SmsPage';
-  routerMyOffice = '/MyOffice';
-  routerCreatingLot = '';
+  PageActivePayment = true;
   constructor() {}
 
   ngOnInit(): void {}

@@ -1,60 +1,84 @@
 <div class="content-card">
-    <div><img src="/assets/Mask Group.png" alt="#" class="img-card"></div>
+    <div class="skrol-container">
+        <img src={{src}} alt="#" class="img-card">
+        <img class="img-card" src="/assets/Mask Group (92).png" alt="@">
+        <img class="img-card" src="/assets/Mask Group (93).png" alt="@">
+        <img class="img-card" src="/assets/Mask Group (92).png" alt="@">
+    </div>
     <div class="card-info-avto-content">
-        <p class="text-card-info-title">Лот 92-21331</p>
-        <h1 class="text-card-info-title-two">BMW 5 серии VII (G30/G31)</h1>
+        <p class="text-card-info-title">{{numLot}}</p>
+        <h1 class="text-card-info-title-two">{{nameLot}}</h1>
        <div class="content-card-info">
         <div>
             <div class="card-display">
                 <p class="text-card-info">Год выпуска:</p>
-                <p class="text-card-info-two"> 2017</p>
+                <p class="text-card-info-two">{{data}}</p>
             </div>
             <div class="card-display">
                 <p class="text-card-info">Город:</p>
-                <p class="text-card-info-two"> Москва</p>
+                <p class="text-card-info-two">{{city}} </p>
             </div>
             <div class="card-display">
                 <p class="text-card-info">Тип торгов:</p>
-                <p class="card-text-lot-active"> Открытый</p>
+                <p class="card-text-lot-active"  [class.active]="lotActivOn">{{ofLOt}} </p>
+                <p class="card-text-lot-activeOf"  [class.active]="lotActivOf">{{ofLOt}} </p>
             </div>
             <div class="card-display">
                 <p class="text-card-info">Текущая цена:</p>
-                <p class="text-card-info-two"> 5 859 990₽</p>
+                <p class="text-card-info-two">{{price}} </p>
+            </div>
+            <div class="card-display">
+                <p class="text-card-info">Дата завершения:</p>
+                <p class="text-card-info-two">{{endDate}}</p>
             </div>
         </div>
         <div class="card-lot-info-avto-content">
             <div class="card-display">
                 <img src="/assets/Mask Group (1).png" alt="">
-                <p class="text-card-info-two"> АКПП</p>
+                <p class="text-card-info-two"> {{box}}</p>
             </div>
             <div class="card-display">
                 <img src="/assets/Mask Group (2).png" alt="">
-                <p class="text-card-info-two"> 4.4 л / 407 л.с. / Бензин</p>
+                <p class="text-card-info-two">{{engine}} </p>
             </div>
             <div class="card-display">
                 <img src="/assets/Mask Group (3).png" alt="">
-                <p class="text-card-info-two"></p>
+                <p class="text-card-info-two">{{run}}</p>
             </div>
         </div>
        </div>
     </div>
     <div class="lot-card-price-content">
         <div class="card-display-component-favorite">
-            <p class="text-card-info-two">В избраном </p>
-            <img (click)="toggle()" class="img-favorite" [src]="image" alt="#">
-            <div class="container-status-lot">
-                <div class="card-lot-status"></div>
-                <p class="activ-text-lot-card">Активен</p>
+            <div class="margin" [class.active]="moderationOf">
+                <div class="dispaly-active-card">
+                    <p class="text-card-info-two">В избраном </p>
+                    <img (click)="toggle()"  style="margin-left: 5px;" class="img-favorite" [src]="image" alt="#">
+                    <div class="container-status-lot">
+                        <div class="card-lot-status"></div>
+                        <p class="activ-text-lot-card">{{lotActive}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-status-lot-two" [class.active]="moderationOn">
+                <div class="card-lot-status-two"></div>
+                <p class="activ-text-lot-card-two">Проверяется модератором</p>
+            </div>
+            <div [class.active]="exetOn">
+                <div class="container-status-lot-exet" >
+                    <div class="card-lot-status-exet"></div>
+                    <p class="activ-text-lot-card-exet">Завершен</p>
+                </div>
             </div>
         </div>
-        <div class="card-lot-stavka-container">
-            <div class="card-display">
-                <p class="text-card-info">Шаг ставки:</p>
-                <p class="text-card-info-two"> 10 000₽</p>
+        <div class="card-lot-stavka-container" [class.active]="moderationOf">
+            <div class="card-display-revers" [class.active-two]="bidStepOn">
+                <p class="text-card-info" >Шаг ставки:</p>
+                <p class="text-card-info-two">{{bidStep}} </p>
             </div>
-            <div class="card-display">
+            <div class="card-display-revers" >
                 <p class="text-card-info">До завершения:</p>
-                <p class="text-card-info-two"> 00:13:14</p>
+                <p class="text-card-info-two">{{timeLot}}</p>
             </div>
             <div class="card-display">
                 <button class="btn-card-lot">Сделать ставку</button>

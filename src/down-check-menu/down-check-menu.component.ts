@@ -29,6 +29,8 @@ export class DownCheckMenuComponent implements OnInit {
   currentText8 = 'Не выбранно';
   currentName9 = 'Город';
   currentText9 = 'Не выбранно';
+  upDown = true;
+
   constructor() {}
 
   ngOnInit(): void {}

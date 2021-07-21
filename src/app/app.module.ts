@@ -95,7 +95,6 @@ import { AboutCompanyComponent } from '../about-company/about-company.component'
 import { AboutCompanyPageComponent } from '../Page/about-company-page/about-company-page.component';
 import { SliderFotoComponent } from '../slider-foto/slider-foto.component';
 import { LogWarningComponent } from '../log-warning/log-warning.component';
-import { CheckMenuDropComponent } from '../check-menu-drop/check-menu-drop.component';
 import { MenuHeaderComponent } from '../menu-header/menu-header.component';
 
 const appRoutes: Routes = [
@@ -227,7 +226,6 @@ const appRoutes: Routes = [
     AboutCompanyPageComponent,
     SliderFotoComponent,
     LogWarningComponent,
-    CheckMenuDropComponent,
     MenuHeaderComponent,
   ],
   imports: [

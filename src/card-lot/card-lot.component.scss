@@ -9,18 +9,16 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 946px;
+  max-width: 906px;
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
-  background: #ffffff;
-  border-radius: 0px 10px 10px 0px;
   padding-top: 20px;
   background: #ffffff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-right: 0px;
 }
 .card-name-content {
   display: flex;
@@ -30,11 +28,15 @@ p {
 .card-info-avto-content {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+
+  align-items: flex-start;
+  width: 480px;
 }
 .content-card-info {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
 .card-display {
   display: flex;
@@ -42,6 +44,12 @@ p {
   align-items: center;
   justify-content: space-between;
   margin-top: 5px;
+}
+.card-display-revers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 .card-display-component-favorite {
   display: flex;
@@ -54,9 +62,7 @@ p {
   align-items: flex-end;
   margin-top: 20px;
 }
-.lot-card-price-content {
-  margin-left: 130px;
-}
+
 .card-lot-info-avto-content {
   margin-left: 120px;
 }
@@ -67,7 +73,7 @@ p {
 .img-card {
   width: 165px;
   height: 165px;
-  margin-left: 0px;
+  margin-right: 2px;
 }
 .text-card-info {
   font-family: Bliss Pro;
@@ -76,15 +82,15 @@ p {
   font-size: 12px;
   line-height: 22px;
   color: #6b6b6b;
-  margin-right: 25px;
 }
 .text-card-info-two {
   font-family: Bliss Pro;
   font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 14px;
   line-height: 183.9%;
   color: #000000;
+  margin-left: 15px;
 }
 .text-card-info-title {
   font-family: Bliss Pro;
@@ -104,12 +110,22 @@ p {
 .card-text-lot-active {
   font-family: Bliss Pro;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   line-height: 183.9%;
   display: flex;
   align-items: center;
   color: #84ba6c;
+}
+.card-text-lot-activeOf {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 183.9%;
+  display: flex;
+  align-items: center;
+  color: #ff3b33;
 }
 .btn-card-lot {
   background: #ffffff;
@@ -125,7 +141,7 @@ p {
   display: flex;
   align-items: center;
   color: #84ba6c;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .activ-text-lot-card {
   font-family: Bliss Pro;
@@ -148,19 +164,109 @@ p {
   border-radius: 100%;
   background: #84ba6c;
 }
-@media (max-width: 1080px) {
-  .content-card-info {
-    display: flex;
-    flex-direction: column;
-  }
-  .card-lot-info-avto-content {
+.margin {
+  margin-left: 75px;
+}
+.container-status-lot-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 85px;
+}
+.card-lot-status-two {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #ffa800;
+}
+.activ-text-lot-card-two {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 183.9%;
+  color: #ffa800;
+  margin-left: 10px;
+}
+.active {
+  display: none;
+}
+.active-two {
+  display: none;
+}
+.dispaly-active-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lot-card-price-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 0px;
+}
+.activ-text-lot-card-exet {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 183.9%;
+  color: #ff3b33;
+  margin-left: 5px;
+}
+.container-status-lot-exet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 178px;
+}
+.card-lot-status-exet {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #ff3b33;
+}
+.skrol-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 155px;
+  height: 175px;
+  cursor: pointer;
+  overflow-y: none;
+}
+
+.skrol-container::-webkit-scrollbar {
+  width: 3px;
+  height: 4px;
+  background-color: #f9f9fd;
+  cursor: pointer;
+}
+.skrol-container::-webkit-scrollbar-thumb {
+  background: #f84f4d;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1270px) {
+}
+@media (max-width: 1155px) {
+  .container-status-lot-two {
     margin-left: 0px;
   }
-  .lot-card-price-content {
-    margin-left: 20px;
+  .margin {
+    margin-left: 0px;
   }
-}
-@media (max-width: 935px) {
+  .container-status-lot-exet {
+    margin-left: 0px;
+  }
+  .card-display-component-favorite {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
   .text-card-info-title-two {
     font-family: Bliss Pro;
     font-style: normal;
@@ -189,4 +295,18 @@ p {
 }
 .verdanaFont {
   display: none;
+}
+@media (max-width: 835px) {
+  .card-info-avto-content {
+    width: 100%;
+  }
+  .card-lot-info-avto-content {
+    margin-left: 5px;
+  }
+  .content-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+  }
 }

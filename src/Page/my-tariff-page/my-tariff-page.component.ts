@@ -6,19 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-tariff-page.component.scss'],
 })
 export class MyTariffPageComponent implements OnInit {
-  routerCarAuctions = '/CarAuctionsPage';
-  routerOtherAuctions = '';
-  routerAnnouncements = '/AnnouncementPage';
-  routerVinCheck = '/VinCheckPage';
-  routerNews = '/NewsPage';
-  routerSoldlots = '';
-  routerAboutCompany = '/AboutCompanyPage';
-  routerPartners = '';
-  routerClosedLotPage = '/CompletedPublicationPage';
-  routerTransferLots = '';
-  routerSmsPage = '/SmsPage';
-  routerMyOffice = '/MyOffice';
-  routerCreatingLot = '';
+  PageActiveMyTarrif = true;
   constructor() {}
 
   ngOnInit(): void {}

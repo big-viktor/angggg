@@ -19,6 +19,7 @@ export class InfoSettingPageComponent implements OnInit {
   routerSmsPage = '/SmsPage';
   routerMyOffice = '/MyOffice';
   routerCreatingLot = '';
+  pageisActiveInf = true;
   constructor() {}
 
   ngOnInit(): void {}

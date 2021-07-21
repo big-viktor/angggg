@@ -14,10 +14,14 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-
+.verdanaFont {
+  background-color: red;
+  width: 40px;
+}
 .down-check-container {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .down-check-content {
   cursor: pointer;
@@ -75,6 +79,12 @@ i {
   color: #000000;
   margin: 0px;
   border-radius: 5px;
+  position: absolute;
+  margin-top: 43px;
+  z-index: 12000;
+}
+.active {
+  margin-top: 54px;
 }
 .invisible {
   display: none;

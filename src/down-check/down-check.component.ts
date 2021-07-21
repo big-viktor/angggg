@@ -13,7 +13,10 @@ export class DownCheckComponent implements OnInit {
   @Input() list2 = '';
   @Input() list3 = '';
   @Input() list4 = '';
+  @Input() condition!: boolean;
+
   visibility: boolean = true;
+
   onMenu() {
     this.visibility = !this.visibility;
   }
