@@ -64,11 +64,12 @@ i {
   padding-top: 15px;
 }
 .content-logo-header {
-  max-width: 1180px;
+  max-width: 1270px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 15px;
 }
 .conteiner-menu-header {
@@ -97,49 +98,48 @@ i {
   flex-direction: row;
 }
 .btn-header-logo {
-  background: #ffffff;
-  border: 1px solid #c4c4c4;
+  background: #84bb6a;
   box-sizing: border-box;
   border-radius: 5px;
+  border: none;
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: bold;
-  height: 67px;
+  height: 47px;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   padding: 10px 30px 10px 30px;
   margin-left: 10px;
-}
-.btn-header-logo::-moz-hover {
-  background: #84bb6a;
-  border: 1px solid #c4c4c4;
-  box-sizing: border-box;
-  border-radius: 5px;
-  font-family: Bliss Pro;
-  font-style: normal;
-  font-size: 15.5px;
-  line-height: 19px;
-  text-align: center;
-  padding: 10px 30px 10px 30px;
-  margin-left: 10px;
-}
-.btn-header-logo:hover {
-  background: #84bb6a;
-  border: 1px solid #6b6b6b;
-  box-sizing: border-box;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
   color: #ffffff;
 }
+// .btn-header-logo::-moz-hover {
+//   border: 1px solid #c4c4c4;
+//   box-sizing: border-box;
+//   border-radius: 5px;
+//   font-family: Bliss Pro;
+//   font-style: normal;
+//   font-size: 15.5px;
+//   line-height: 19px;
+//   text-align: center;
+//   padding: 10px 30px 10px 30px;
+//   margin-left: 10px;
+// }
+// .btn-header-logo:hover {
+//   background: #84bb6a;
+//   border: 1px solid #6b6b6b;
+//   box-sizing: border-box;
+//   font-weight: bold;
+//   font-size: 16px;
+//   line-height: 19px;
+//   text-align: center;
+// }
 
 .menu-header-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 40px;
+  padding-left: 50px;
   border-top: 1px solid #c4c4c4;
   border-bottom: 1px solid #c4c4c4;
 }
@@ -152,7 +152,7 @@ i {
   font-size: 18px;
   line-height: 21px;
   color: #190706;
-  margin-right: 50px;
+  margin-right: 60px;
   padding-bottom: 4px;
   text-decoration: none;
 }
@@ -167,7 +167,7 @@ i {
     margin-left: 20px;
   }
   .content-logo-header {
-    max-width: 1180px;
+    max-width: 1175px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
