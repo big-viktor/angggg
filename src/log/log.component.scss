@@ -27,23 +27,29 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 15px;
-  border-bottom: 1px solid #ececec;
 }
-.tel-log-content {
-  background: #fafafa;
+.active-log {
+  background: none;
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  color: #c4c4c4;
+  color: #000000;
   padding: 15px 35px;
+  padding-bottom: 11px;
   margin: 0px;
+  border-bottom: 3px solid #ff3b33;
+  cursor: pointer;
   transition: 0.3s;
 }
-.tel-log-content:hover {
-  background: none;
+.password-inp {
+  color: red;
+}
+.tel-log-content {
+  border-bottom: 1px solid #ececec;
+  background: #fafafa;
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: bold;
@@ -54,10 +60,26 @@
   padding: 15px 35px;
   padding-bottom: 11px;
   margin: 0px;
+  transition: 0.3s;
+}
+
+.tel-log-content:hover {
+  background: none;
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding: 15px 35px;
+  padding-bottom: 11px;
+  margin: 0px;
   border-bottom: 3px solid #ff3b33;
   cursor: pointer;
   transition: 0.3s;
 }
+
 .container-log-input {
   display: flex;
   flex-direction: column;

@@ -8,11 +8,10 @@
   max-width: 1920px;
   margin: 0 auto;
 }
-.container-menu {
-  display: flex;
-  flex-direction: row;
-  background: #fafafa;
-  height: 100%;
+
+.content-contact {
+  width: 100%;
+  background: #ffffff;
 }
 .container-page-contact::after {
   content: "";
@@ -37,7 +36,6 @@
   flex-direction: row;
   display: flex;
   flex-direction: row;
-  background: #fafafa;
   height: 100%;
 }
 .container-footer {
@@ -48,6 +46,9 @@
 .container-contact {
   width: 947px;
   padding-right: 20px;
+}
+.container-menu {
+  background: #fafafafa;
 }
 @media (max-width: 1300px) {
   .container-contact {
