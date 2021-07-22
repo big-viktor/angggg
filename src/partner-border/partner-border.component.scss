@@ -2,6 +2,14 @@
   font-family: Bliss Pro;
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
+.content-yotube {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.exit-youtybe {
+  cursor: pointer;
+}
 .invisible {
   display: none;
 }
@@ -9,6 +17,7 @@
   display: none;
 }
 .youtybe {
+  margin-top: 10px;
   border-radius: 10px;
 }
 .container-border {

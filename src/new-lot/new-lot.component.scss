@@ -17,6 +17,29 @@ p {
   border-radius: 10px 10px 10px 10px;
   padding-top: 40px;
 }
+.text-card-price {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+  margin-right: 10px;
+}
+.text-card-info-two-price {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 183.9%;
+  color: #ff3b33;
+}
+.card-display-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
 .card-name-content {
   display: flex;
   flex-direction: row;
@@ -78,6 +101,7 @@ p {
   color: #6b6b6b;
   margin-left: 20px;
 }
+
 .text-card-info {
   font-family: Bliss Pro;
   font-style: normal;
@@ -90,11 +114,12 @@ p {
 .text-card-info-two {
   font-family: Bliss Pro;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   line-height: 183.9%;
   color: #000000;
   text-align: right;
+  margin-left: 5px;
 }
 .text-card-info-title {
   font-family: Bliss Pro;
@@ -220,4 +245,10 @@ p {
     font-size: 24px;
     line-height: 24px;
   }
+}
+.red {
+  color: #ff3b33;
+}
+.green {
+  color: #84bb6a;
 }
