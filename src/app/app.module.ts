@@ -6,6 +6,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 import { AppRoutingModule } from './app-routing.module';
+
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { AppComponent } from './app.component';
 import { SettingComponent } from '../setting/setting.component';
 import { HeaderComponent } from '../header/header.component';
@@ -96,6 +99,7 @@ import { AboutCompanyPageComponent } from '../Page/about-company-page/about-comp
 import { SliderFotoComponent } from '../slider-foto/slider-foto.component';
 import { LogWarningComponent } from '../log-warning/log-warning.component';
 import { MenuHeaderComponent } from '../menu-header/menu-header.component';
+import { CaruselImgComponent } from '../carusel-img/carusel-img.component';
 
 const appRoutes: Routes = [
   { path: 'MyOffice', component: PageContactComponent },
@@ -227,6 +231,7 @@ const appRoutes: Routes = [
     SliderFotoComponent,
     LogWarningComponent,
     MenuHeaderComponent,
+    CaruselImgComponent,
   ],
   imports: [
     BrowserModule,
@@ -234,6 +239,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     IvyCarouselModule,
     SlickCarouselModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

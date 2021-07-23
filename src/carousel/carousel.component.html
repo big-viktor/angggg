@@ -2,9 +2,11 @@
     <div>
         <a routerLink="/PartnerImgPage" class="title-carusel">Наши партнёры</a>
     </div>
+    <button (click)="next()" >next</button> 
+    <p>back</p>
     <div class="content-carusel">
-        <div class="carousel-container">
-            <carousel  [height]="height" [cellWidth]="cellWidth"  [arrows]="arrows" [cellsToScroll]="cellsToScroll" [arrowsOutside]="arrowsOutside" >  
+        <div class="carousel-container" >
+            <carousel   [height]="height" [cellWidth]="cellWidth"  [arrows]="arrows" [cellsToScroll]="cellsToScroll" [arrowsOutside]="arrowsOutside" >  
                 <div class="carousel-cell">
                     <img class="img-carusels" src="/assets/Mask Group (67).png" onMouseout="src='/assets/Mask Group (67).png'" onMouseover="src='/assets/Mask Group (40).png'" alt="#">
                 </div>
@@ -78,4 +80,4 @@
         </div>
     </div>
     </div>
-    
+

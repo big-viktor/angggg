@@ -9,6 +9,12 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 })
 export class CarouselComponent {
   title = 'ng-carousel-demo';
+  images = '';
+  @ViewChild('myCarousel', { static: false })
+  myCarousel!: { next: () => void };
+  next() {
+    this.myCarousel.next();
+  }
 
   onNext() {}
   value = '';

@@ -1,0 +1,91 @@
+@import "~bootstrap/scss/bootstrap";
+.d-block {
+}
+.carousel-inner {
+  width: 900px;
+  height: 504px;
+}
+.container-carusel-img {
+  max-width: 1000px;
+}
+@media (max-width: 1020px) {
+  .carousel-inner {
+    width: 500px;
+    height: 304px;
+  }
+}
+.border-activ-slid-left {
+  margin-top: 10px;
+  margin-right: 190px;
+  width: 40px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.border-activ-slid-right {
+  margin-left: 190px;
+  width: 40px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.border-activ-slid-left:hover {
+  width: 40px;
+  height: 28px;
+  border-radius: 100%;
+  background: #84ba6c;
+}
+.border-activ-slid-right:hover {
+  width: 40px;
+  height: 28px;
+  border-radius: 100%;
+  background: #84ba6c;
+}
+@media (max-width: 650px) {
+  .carousel-inner {
+    width: 500px;
+    height: 304px;
+  }
+  .border-activ-slid-left {
+    margin-right: 60px;
+  }
+  .border-activ-slid-right {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 650px) {
+  .carousel-inner {
+    width: 240px;
+    height: 164px;
+  }
+}
+@media (max-width: 320px) {
+  .carousel-inner {
+    width: 240px;
+    height: 164px;
+  }
+  .border-activ-slid-left {
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  .border-activ-slid-right {
+    margin-left: 0px;
+  }
+}
+.left {
+  transform: rotate(135deg);
+}
+.right {
+  transform: rotate(-45deg);
+}
+.right-i {
+  width: 5px;
+  height: 5px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
