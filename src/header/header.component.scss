@@ -113,27 +113,6 @@ i {
   margin-left: 10px;
   color: #ffffff;
 }
-// .btn-header-logo::-moz-hover {
-//   border: 1px solid #c4c4c4;
-//   box-sizing: border-box;
-//   border-radius: 5px;
-//   font-family: Bliss Pro;
-//   font-style: normal;
-//   font-size: 15.5px;
-//   line-height: 19px;
-//   text-align: center;
-//   padding: 10px 30px 10px 30px;
-//   margin-left: 10px;
-// }
-// .btn-header-logo:hover {
-//   background: #84bb6a;
-//   border: 1px solid #6b6b6b;
-//   box-sizing: border-box;
-//   font-weight: bold;
-//   font-size: 16px;
-//   line-height: 19px;
-//   text-align: center;
-// }
 
 .menu-header-content {
   display: flex;
@@ -190,20 +169,11 @@ i {
     border-right: 1px solid #c4c4c4;
   }
   .btn-header-logo {
-    background: #ffffff;
-    border: 1px solid #6b6b6b;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-family: Bliss Pro;
-    font-style: normal;
-    height: 60px;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
     padding: 10px 30px 10px 30px;
     margin-left: 10px;
   }
 }
+
 @media (max-width: 755px) {
   .menu-header-content {
     display: flex;
@@ -253,5 +223,18 @@ i {
     padding-left: 20px;
     border-left: 1px solid #c4c4c4;
     border-right: 1px solid #c4c4c4;
+  }
+}
+.invisible {
+  display: none;
+}
+.burger-btn {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 755px) {
+  .burger {
+    display: none;
   }
 }

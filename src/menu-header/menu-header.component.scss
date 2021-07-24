@@ -93,3 +93,14 @@ i {
     transform: rotate(-135deg);
   }
 }
+@media (max-width: 430px) {
+  .container-down-header {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    padding-right: 10px;
+  }
+}

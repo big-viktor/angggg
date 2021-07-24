@@ -6,18 +6,62 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 35px;
 }
 .img-title-torg {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
 }
 .text-title-torg {
   font-family: Bliss Pro;
   font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 183.9%;
   color: #000000;
+}
+.info-lot-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.active-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 25px;
+}
+.lot-stavka-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lot-stavka {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0px;
+  margin-right: 10px;
+}
+.lot-stavka-price {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #ff3b33;
+  margin: 0px;
+  border: inherit;
+  border-bottom: 1px dotted #000000;
 }
 .title-text2-torg {
   font-family: Bliss Pro;
@@ -26,6 +70,7 @@
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+  margin-left: 35px;
 }
 .img-lot-content {
   display: flex;
@@ -90,12 +135,7 @@
   margin-left: 25px;
   height: 50%;
 }
-.active-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-right: 25px;
-}
+
 .info-text-title-lot {
   font-family: Bliss Pro;
   font-style: normal;
@@ -112,14 +152,7 @@
   border-radius: 1000px;
   margin-right: 10px;
 }
-.info-lot-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #c4c4c4;
-}
+
 .content-ifo-lot {
   display: flex;
   flex-direction: row;
@@ -204,6 +237,7 @@
   border-left: 1px solid #ececec;
   border-radius: 5px 0px 0px 5px;
   padding-top: 10px;
+  padding-bottom: 15px;
   padding-left: 45px;
   padding-right: 78px;
   margin-top: 25px;
@@ -218,6 +252,7 @@
   line-height: 14px;
   color: #000000;
   margin: 0px;
+  margin-top: 10px;
 }
 .price-lot {
   font-family: Bliss Pro;
@@ -229,7 +264,8 @@
   margin: 0px;
 }
 .content-price-stavka {
-  padding-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 25px;
   padding-left: 40px;
   width: 350px;
@@ -237,6 +273,7 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 .name-price-stavka {
   font-family: Bliss Pro;
@@ -360,6 +397,7 @@
   font-size: 14px;
   line-height: 26px;
   color: #84bb6a;
+  margin: 0px;
 }
 .text-status {
   font-family: Bliss Pro;
@@ -368,6 +406,7 @@
   font-size: 12px;
   line-height: 183.9%;
   color: #000000;
+  margin: 0px;
 }
 @media (max-width: 1225px) {
   .container-lot-info {

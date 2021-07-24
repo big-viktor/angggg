@@ -2,6 +2,10 @@
   font-family: Bliss Pro;
   src: url("/assets/ttf/ofont.ru_Bliss\ Pro.ttf") format("opentype");
 }
+@font-face {
+  font-family: IBM Plex Sans;
+  src: url("/src/assets/ttf/IBMPlexSans-Regular.ttf") format("opentype");
+}
 p {
   margin: 0px;
 }
@@ -15,7 +19,7 @@ p {
   padding-bottom: 20px;
   background: #ffffff;
   border-radius: 10px 10px 10px 10px;
-  padding-top: 40px;
+  padding-top: 15px;
 }
 .text-card-price {
   font-family: Bliss Pro;
@@ -75,7 +79,6 @@ p {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  margin-top: 20px;
 }
 .lot-card-price-content {
   margin-left: 70px;
@@ -88,9 +91,9 @@ p {
   height: 12px;
 }
 .img-card {
-  width: 165px;
-  height: 165px;
-  margin-left: 20px;
+  width: 160px;
+  height: 185px;
+  margin-right: 5px;
 }
 .text-card-info-lot {
   font-family: Bliss Pro;
@@ -164,7 +167,7 @@ p {
   display: flex;
   align-items: center;
   color: #84ba6c;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 0px;
 }
 .activ-text-lot-card {
@@ -251,4 +254,30 @@ p {
 }
 .green {
   color: #84bb6a;
+}
+.select {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.skrol-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 155px;
+  height: 205px;
+  cursor: pointer;
+  overflow-y: none;
+}
+
+.skrol-container::-webkit-scrollbar {
+  width: 3px;
+  height: 4px;
+  background-color: #f9f9fd;
+  cursor: pointer;
+}
+.skrol-container::-webkit-scrollbar-thumb {
+  background: #f84f4d;
+  border-radius: 10px;
+  cursor: pointer;
 }

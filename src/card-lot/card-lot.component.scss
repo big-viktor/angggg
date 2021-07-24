@@ -12,7 +12,6 @@ p {
   max-width: 906px;
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 20px;
   padding-top: 20px;
   background: #ffffff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -87,8 +86,8 @@ p {
   height: 12px;
 }
 .img-card {
-  width: 165px;
-  height: 165px;
+  width: 155px;
+  height: 200px;
   margin-right: 2px;
 }
 .text-card-info {
@@ -158,6 +157,7 @@ p {
   align-items: center;
   color: #84ba6c;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 .activ-text-lot-card {
   font-family: Bliss Pro;
@@ -247,7 +247,7 @@ p {
   flex-direction: row;
   overflow-x: scroll;
   width: 155px;
-  height: 175px;
+  height: 205px;
   cursor: pointer;
   overflow-y: none;
 }

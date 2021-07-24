@@ -10,12 +10,13 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 946px;
+  max-width: 920px;
   padding-right: 20px;
   padding-bottom: 20px;
   background: #ffffff;
   border-radius: 10px 10px 10px 10px;
-  padding-top: 40px;
+  padding-left: 25px;
+  padding-top: 15px;
 }
 .card-name-content {
   display: flex;
@@ -53,7 +54,8 @@ p {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  margin-top: 20px;
+  justify-content: flex-end;
+  margin-top: 40px;
 }
 .lot-card-price-content {
   margin-left: 70px;
@@ -66,9 +68,9 @@ p {
   height: 12px;
 }
 .img-card {
-  width: 165px;
-  height: 165px;
-  margin-left: 20px;
+  width: 160px;
+  height: 185px;
+  margin-right: 5px;
 }
 .text-card-info-lot {
   font-family: Bliss Pro;
@@ -91,7 +93,7 @@ p {
 .text-card-info-two {
   font-family: Bliss Pro;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   line-height: 183.9%;
   color: #000000;
@@ -140,7 +142,7 @@ p {
   display: flex;
   align-items: center;
   color: #84ba6c;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 0px;
 }
 .activ-text-lot-card {
@@ -165,8 +167,9 @@ p {
   background: #84ba6c;
 }
 .card-display-ifo {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
+  flex-direction: column;
 }
 .card-text-lot-closed {
   font-family: Bliss Pro;
@@ -247,4 +250,29 @@ p {
     font-size: 24px;
     line-height: 24px;
   }
+}
+.skrol-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 155px;
+  height: 205px;
+  cursor: pointer;
+  overflow-y: none;
+}
+
+.skrol-container::-webkit-scrollbar {
+  width: 3px;
+  height: 4px;
+  background-color: #f9f9fd;
+  cursor: pointer;
+}
+.skrol-container::-webkit-scrollbar-thumb {
+  background: #f84f4d;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.select {
+  text-align: right;
+  margin-left: 10px;
 }

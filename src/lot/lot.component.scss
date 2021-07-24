@@ -38,18 +38,60 @@
   align-items: center;
 }
 .img-title-torg {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
 }
 .text-title-torg {
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: 600;
-  margin-left: 10px;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 183.9%;
   color: #000000;
 }
+.info-lot-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.active-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 25px;
+  padding-top: 5px;
+}
+.lot-stavka-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lot-stavka {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0px;
+  margin-right: 10px;
+}
+.lot-stavka-price {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #ff3b33;
+  margin: 0px;
+}
+
 .title-text2-torg {
   font-family: Bliss Pro;
   font-style: normal;
@@ -120,12 +162,7 @@
   margin-left: 25px;
   height: 50%;
 }
-.active-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-right: 25px;
-}
+
 .info-text-title-lot {
   font-family: Bliss Pro;
   font-style: normal;
@@ -166,10 +203,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-bottom: 10px;
 }
 .input-lot {
   width: 189px;
-  height: 45px;
+  height: 50px;
   background: #ffffff;
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
@@ -247,6 +285,7 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 .name-price-stavka {
   font-family: Bliss Pro;
@@ -371,6 +410,7 @@
   font-size: 14px;
   line-height: 26px;
   color: #84bb6a;
+  margin: 0px;
 }
 .text-status {
   font-family: Bliss Pro;
@@ -379,6 +419,7 @@
   font-size: 12px;
   line-height: 183.9%;
   color: #000000;
+  margin: 0px;
 }
 .btn-lot:hover {
   border: 1px solid #84ba6c;

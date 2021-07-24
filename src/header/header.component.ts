@@ -43,6 +43,7 @@ export class HeaderComponent implements OnInit {
   onSave() {
     this.visibility = !this.visibility;
   }
+  onMenu() {}
   constructor() {}
 
   ngOnInit(): void {
