@@ -21,19 +21,30 @@
   font-family: Bliss Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 18px;
+  line-height: 21px;
   color: #000000;
+}
+.footer-text-two {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #818181;
 }
 .content-img-footer {
   display: flex;
   flex-direction: row;
+  padding-right: 20px;
 }
+
 .img-footer {
   cursor: pointer;
-  margin-right: 10px;
-  max-width: 30px;
-  height: 20px;
+  margin-left: 20px;
+  max-width: 40px;
+  height: 40px;
 }
 .info-footer-content {
   max-width: 1150px;
@@ -45,7 +56,44 @@
   justify-content: space-between;
   padding: 20px 40px 20px 20px;
 }
+.content-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  max-width: 1160px;
+}
+.price-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container-info-cotact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content-text-info-adres {
+  margin-bottom: 35px;
+}
+.info-cotact-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+.text-card {
+  font-family: Bliss Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 25px;
+}
 @media (max-width: 845px) {
+  .card-price-img {
+    margin-top: 20px;
+  }
   .content-footer {
     display: flex;
     flex-direction: column;
